@@ -4,11 +4,34 @@ body{
     height: auto;
     width: auto;
     background: linear-gradient(to top, rgb(29, 51, 252), violet);
+    font-family: Arial, sans-serif;
 }
 
 .course-container{
     height: auto;
-    width: 100%;
+    width: auto;
     margin: 20px;
+    border-radius: 10px;
     border: solid;
+}
+
+.topics {
+    width: 20%;
+    background-color: #f0f0f0;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.topic {
+    cursor: pointer;
+    padding: 8px;
+    margin-bottom: 8px;
+    background-color: #ddd;
+}
+
+.content {
+    width: 80%;
+    padding: 20px;
+    box-sizing: border-box;
+    display: none;
 }
