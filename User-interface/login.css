@@ -1,0 +1,63 @@
+body{
+  background: linear-gradient(to left, #f8f8f8, #949494ab);
+  display: flex;
+  justify-content: center;
+  margin-top: 20vh;
+}
+.container{
+  background:linear-gradient(to top, rgb(29, 51, 252), violet);
+  height: 400px;
+  width: 400px;
+  border-radius: 50px;
+}
+.Login-form{
+  display: flex;
+  flex-direction: column;
+  margin: 50px;
+  color: white;
+}
+.pass{
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+.Login-form input{
+  margin-top: 5px;
+  background: rgb(57, 164, 252);
+  border: none;
+  border-radius: 25px;
+  height: 30px;
+  padding: 5px 20px 5px 20px;
+}
+label {
+  display: flex;
+  align-items: center;
+}
+input[type="checkbox"] {
+  height: 20px;
+  width: 15px;
+  vertical-align: middle;
+  opacity: 0.9;
+}
+button{
+  margin-top: 60px;
+  background: rgb(57, 164, 252);
+  border: none;
+  color: white;
+  border-radius: 20px;
+  height: 40px;
+  transition: 0.7s;
+}
+button:hover{
+  transform: scale(0.90);
+  background-color: #5ab9ea;
+}
+p{
+  display: flex;
+  justify-content: center;
+}
+p a{
+  
+  margin-left: 3px;
+  color: rgb(0, 153, 255);
+}
