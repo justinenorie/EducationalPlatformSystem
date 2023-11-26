@@ -1,0 +1,14 @@
+body{
+    padding: 0;
+    margin: 0;
+    height: auto;
+    width: auto;
+    background: linear-gradient(to top, rgb(29, 51, 252), violet);
+}
+
+.course-container{
+    height: auto;
+    width: 100%;
+    margin: 20px;
+    border: solid;
+}

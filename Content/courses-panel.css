@@ -9,7 +9,7 @@ body{
     padding: 0;
     height: auto;
     width: auto;
-    background: linear-gradient(to left, #f8f8f8, #949494ab);
+    background:linear-gradient(to top, rgb(29, 51, 252), violet);
 }
 
 .banner {
