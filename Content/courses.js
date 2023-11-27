@@ -8,6 +8,6 @@ function showContent(contentId) {
     // Show the selected content
     var selectedContent = document.getElementById(contentId);
     if (selectedContent) {
-        selectedContent.style.display = 'block';
+        selectedContent.style.display = 'inline';
     }
 }

@@ -10,6 +10,7 @@ body{
     height: auto;
     width: auto;
     background:linear-gradient(to top, rgb(29, 51, 252), violet);
+    font-family: Arial, sans-serif;
 }
 
 .banner {

@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EDUCATIVO Courses</title>
     <link rel="stylesheet" href="/IT-ELECT-FINALPROJ-main/Content/courses-panel.css">
+    <script src="/IT-ELECT-FINALPROJ-main/Scripts/course-panel.js"></script>
 </head>
 <body>
     <div class="banner">
@@ -31,7 +32,7 @@
         <div class="course">
             <h1>COURSE 1</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente minus, odio ut possimus voluptatum fugiat earum alias facilis, quasi est blanditiis similique harum libero. Praesentium voluptatibus maxime obcaecati similique sapiente magnam beatae tempore quia fugit animi minus hic saepe, optio itaque, eum nam harum suscipit aut quisquam. Veniam, nisi repudiandae?</p>
-            <div class="learn-button"> <button>LEARN NOW</button></div>
+            <div class="learn-button"><button onclick="course1()">LEARN NOW</button></div>
            
         </div>
 
