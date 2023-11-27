@@ -28,7 +28,7 @@
         <nav>
             <div class="banner-selection">
                 <a href="#">Home</a>
-                <a href="#">Courses</a>
+                <a href="/IT-ELECT-FINALPROJ-main/Content/courses-panel.php">Courses</a>
                 <a href="#aboutus">About Us</a>
             </div>
         </nav>

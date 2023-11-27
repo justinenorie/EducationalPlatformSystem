@@ -161,13 +161,13 @@ nav .banner-selection a:hover::after{
 /* Scroll Bar Design */
 ::-webkit-scrollbar {
     width: 7px; 
-    background: blue;
+    background: wheat;
 }
 ::-webkit-scrollbar-thumb {
-    background: linear-gradient(to top, #d1b0e7, #75385a, #83064b );
+    background: linear-gradient(to top, #d1b0e7, #75385a );
     border-radius: 5px;
 }
 ::-webkit-scrollbar-thumb:hover {
-    background: linear-gradient(to bottom, #dd83ca, #462034, #c094ac );
+    background: linear-gradient(to bottom, #dd83ca, #462034 );
 }
 

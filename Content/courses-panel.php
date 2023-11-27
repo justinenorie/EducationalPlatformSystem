@@ -1,3 +1,16 @@
+<?php
+  session_start();
+  if(!isset($_SESSION['userlogin'])){
+    header ("Location: login.php");
+  }
+  if(isset($_GET['logout'])){
+    sleep(2);
+    session_destroy();
+    unset($_SESSION);
+    header("Location: login.php");
+    exit();
+  }
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,14 +28,13 @@
         </div>
         <nav>
             <div class="banner-selection">
-                <a href="#">Home</a>
+                <a href="/IT-ELECT-FINALPROJ-main/User-interface/Login_form/index.php">Home</a>
                 <a href="#">Courses</a>
-                <a href="#">About Us</a>
+                <a href="/IT-ELECT-FINALPROJ-main/User-interface/Login_form/index.php #aboutus">About Us</a>
             </div>
         </nav>
         <div class="users">
-            <a href="/IT-ELECT-FINALPROJ-main/User-interface/Login_form/login.php"><button class="log">Login</button></a>
-            <a href="/IT-ELECT-FINALPROJ-main/User-interface/Registration_form/registration.php"><button class="reg">Sign Up</button></a>
+            <a href="index.php?logout=true"><button>Logout</button></a>
         </div>
     </div>
 
