@@ -50,7 +50,7 @@ body{
     transition: 0.5s;
 }
 .topic.active{
-    background-color: cyan;
+    background-color: rgba(0, 255, 255, 0.507);
     width: 31vh;
     height: 11vh;
 }
@@ -77,10 +77,31 @@ body{
     line-height: 28px;
 }
 
-.course1-quiz1{
+.course-quiz{
     display: flex;
     justify-content: center;
+    width: auto;
+    height: auto;
 }
+
+.course-quiz button{
+    background: #526D82;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 30px;
+    border: none;
+    width: 31vh;
+    height: 8vh;
+    cursor: pointer;
+    transition: 1s;
+}
+.course-quiz button:hover{
+    background: #1E5128;
+    color: wheat;
+    width: 33vh;
+    height: 9.5vh;
+}
+
 /* Scroll Bar Design */
 ::-webkit-scrollbar {
     width: 7px; 

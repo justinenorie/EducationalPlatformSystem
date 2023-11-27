@@ -2,11 +2,10 @@ body{
   margin: 0;
   padding: 0;
   height: 100%;
-  width: auto;
+  width: 100%;
 }
 .whole-container{
   display: flex;
-  height: 860px;
 }
 .right-container{
   height: 870px;
@@ -70,7 +69,7 @@ input[type="checkbox"] {
   height: 20px; 
 }
 
-.signupForm button{
+.signupForm .button{
   margin-left: 6%;
   margin-top: 100px;
   background: linear-gradient(to top, rgb(51, 70, 243), violet);
@@ -81,7 +80,7 @@ input[type="checkbox"] {
   width: 91%;
   transition: 0.7s;
 }
-button:hover{
+.button:hover{
   transform: scale(0.90);
   background-color: #5ab9ea;
 }
@@ -92,4 +91,13 @@ button:hover{
   margin-top: 10px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-weight: bolder;
+}
+.signupForm p{
+  color: black;
+  margin-left: 40%;
+  font-size: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.signupForm a{
+  margin-left: 4px;
 }
