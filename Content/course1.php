@@ -5,19 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Course 1</title>
     <link rel="stylesheet" href="/IT-ELECT-FINALPROJ-main/Content/course1.css">
-    <script src="/IT-ELECT-FINALPROJ-main/Content/courses.js"></script>
+    <script src="/IT-ELECT-FINALPROJ-main/Scripts/courses.js"></script>
 </head>
 <body>
-    
     <div class="contain">
         <div class="title-course"><h1>COURSE 1</h1></div>  
     
         <div class="course-container">
             <div class="topics">
-                <button class="topic" onclick="showContent('content1')">Topic 1</button>
-                <button class="topic" onclick="showContent('content2')">Topic 2</button>
-                <button class="topic" onclick="showContent('content3')">Topic 3</button>
-                <button class="topic" onclick="showContent('content4')">CERTIFICATE</button>
+                <button class="topic" onclick="showContent('content1', 'button1')" id="button1">Topic 1</button>
+                <button class="topic" onclick="showContent('content2', 'button2')" id="button2">Topic 2</button>
+                <button class="topic" onclick="showContent('content3', 'button3')" id="button3">Topic 3</button>
+                <button class="topic" onclick="showContent('content4', 'button4')" id="button4">CERTIFICATE</button>
             </div>
         
             <div class="contents-container">
