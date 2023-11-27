@@ -9,7 +9,7 @@ body{
   padding: 0;
   height: auto;
   width: auto;
-  background: linear-gradient(to right, #6875eb, #e98fe9, #eeaa82);
+  background: linear-gradient(to left, #0a0d10, #323133);
 }
 .whole-container{
   display: flex;

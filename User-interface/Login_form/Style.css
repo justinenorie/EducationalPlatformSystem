@@ -10,7 +10,7 @@ body{
 .left-container{
   height: 870px;
   width: 50%;
-  background: linear-gradient(to top, rgb(51, 70, 243), violet);
+  background: linear-gradient(to left, #0a0d10, #323133);
   display: flex;
   justify-content: center;
   position: relative;
@@ -51,7 +51,7 @@ label {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .Login-form h1{
-  color: white ;
+  color: black;
   font-family: Geneva, Tahoma, sans-serif;
   text-shadow: 2px 2px 4px rgb(0, 0, 0);
   margin-bottom: 100px;
