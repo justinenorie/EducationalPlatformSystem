@@ -1,3 +1,3 @@
 <?php
-    echo "Hi Daddy World";
+    echo "HI I AM QUIZ 1";
 ?>

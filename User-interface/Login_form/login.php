@@ -5,7 +5,6 @@
   }
 ?>
 
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -32,7 +31,7 @@
     </div>
     <label><input type="checkbox">Remember Me</label>
     <input type="submit" class="button" id="login" value="login" name="login">
-    <p id="signup-message">Doesn't have an account yet?<a href="http://localhost/webapp/FORM_PAGE/Registration_form/registration.php" id="signup-link">Sign up</a></p>
+    <p id="signup-message">Doesn't have an account yet?<a href="/IT-ELECT-FINALPROJ-main/User-interface/Registration_form/registration.php" id="signup-link">Sign up</a></p>
   </form>
   </div>
   </div>
@@ -44,7 +43,7 @@
 
     // Function to redirect to another page after the specified delay
     function redirectToSignup() {
-      window.location.href = "http://localhost/webapp/FORM_PAGE/Registration_form/registration.php";
+      window.location.href = "/IT-ELECT-FINALPROJ-main/User-interface/Registration_form/registration.php";
     }
 
     // Add a click event listener to the signup link
@@ -86,8 +85,7 @@
                                   setTimeout(function() {
                                     window.location.href = "index.php";
                                   }, 2000);
-                              }
-                            
+                              } 
                     },
                     error: function(data){
                         Swal.fire({

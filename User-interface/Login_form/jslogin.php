@@ -2,12 +2,11 @@
 session_start();
 require('config.php');
 
-
 $username = $_POST['username'];
 $password = $_POST['password'];
 
 // Use a prepared statement with placeholders
-$sql = "SELECT UserName, email, password FROM users WHERE email = ? LIMIT 1";
+$sql = "SELECT UserName, Email, Password FROM users WHERE email = ? LIMIT 1";
 $stmtselect = $conn->prepare($sql);
 
 // Execute the statement with the parameters

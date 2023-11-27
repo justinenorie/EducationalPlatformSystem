@@ -29,7 +29,7 @@ if (isset($_POST)) {
     }
 
     // Check if email already exists
-    $query = "SELECT * FROM Users WHERE email = ?";
+    $query = "SELECT * FROM users WHERE email = ?";
     $stmt = $conn->prepare($query);
 
     if ($stmt) {
@@ -53,7 +53,7 @@ if (isset($_POST)) {
         echo "Error: " . $errorMsg;
     } else {
         // Insert data into the database
-        $query = "INSERT INTO Users (FirstName, LastName, UserName, Email, Password, Gender, Birthday) VALUES (?, ?, ?, ?, ?, ?, ?)";
+        $query = "INSERT INTO users (FirstName, LastName, UserName, Email, Password, Gender, Birthday) VALUES (?, ?, ?, ?, ?, ?, ?)";
         $stmtinsert = $conn->prepare($query);
 
         if ($stmtinsert) {
