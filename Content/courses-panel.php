@@ -52,7 +52,6 @@
 
         <div class="course">
             <h1>COURSE 4</h1>
-            <h1>123456</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente minus, odio ut possimus voluptatum fugiat earum alias facilis, quasi est blanditiis similique harum libero. Praesentium voluptatibus maxime obcaecati similique sapiente magnam beatae tempore quia fugit animi minus hic saepe, optio itaque, eum nam harum suscipit aut quisquam. Veniam, nisi repudiandae?</p>
             <div class="learn-button"> <button>LEARN NOW</button></div>
            
