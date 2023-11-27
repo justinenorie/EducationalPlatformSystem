@@ -9,8 +9,9 @@ body{
     padding: 0;
     height: auto;
     width: auto;
-    background:linear-gradient(to top, rgb(29, 51, 252), violet);
+    color: white;
     font-family: Arial, sans-serif;
+    background: linear-gradient(to left, #0a0d10, #323133);
 }
 
 .banner {
