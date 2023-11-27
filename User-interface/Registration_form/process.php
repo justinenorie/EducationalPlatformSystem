@@ -29,7 +29,7 @@ if (isset($_POST)) {
     }
 
     // Check if email already exists
-    $query = "SELECT * FROM users WHERE email = ?";
+    $query = "SELECT * FROM users WHERE Email = ?";
     $stmt = $conn->prepare($query);
 
     if ($stmt) {
