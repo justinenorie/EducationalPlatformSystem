@@ -1,3 +1,4 @@
+
 body{
     padding: 0;
     margin: 0;
@@ -7,11 +8,105 @@ body{
     font-family: Arial, sans-serif;
     background: linear-gradient(to left, #0a0d10, #323133);
 }
+
+
+.banner {
+    background: #251a274d;
+    box-shadow: 0 8px 32px 0 #1f26875e;
+    backdrop-filter: blur( 20px );
+    -webkit-backdrop-filter: blur( 20px );
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 90px;
+    width: 100%;
+    z-index: 1000;
+}
+
+.banner-title{
+    padding: 10px;
+    margin: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.banner-selection a{
+    margin: 20px;
+    font-size: 20px;
+}
+
+nav .banner-selection a{
+    position: relative;
+    width: 0;
+    transition: color 0.5s;
+}
+nav .banner-selection a:hover{
+    color: rgb(192, 222, 247);
+}
+nav .banner-selection a::after{
+    content: ""; 
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0; 
+    border-bottom: 2px solid aqua; 
+    transition: width 0.8s;
+}
+nav .banner-selection a:hover::after{
+    width: 100%;
+}
+
+.users{
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    margin: 20px;
+    width: auto;
+    height: auto;
+    justify-content: center;
+  }
+  
+.users button {
+    cursor: pointer;
+    border: 0;
+    border-radius: 10px;
+    font-weight: 600;
+    margin: 0 10px;
+    width: 100px;
+    padding: 10px 0;
+    box-shadow: 0 0 20px #6855e033;
+    transition: 0.5s;
+}
+  
+.reg {
+    color: white;
+    background-color: #6855e0;
+}
+  
+.log {
+    color: #6855e0;
+    background-color: #ffffff;
+    border: 1px solid #6855e0;
+}
+  
+.users button:hover {
+    color: white;
+    width: 120px; 
+    box-shadow: 0 0 20px #6855e099;
+    background-color: #6855e0;
+}
+
 .contain{
     border: solid;
     border-radius: 10px;
     padding: 30px;
-    margin: 20px;
+    margin: 20px 20px 20px 20px;
 }
 .course-container{
     height: auto;

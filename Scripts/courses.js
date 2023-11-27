@@ -30,5 +30,17 @@ function showContent(contentId, buttonId) {
 }
 
 function course1() {
-    window.location.href = '/IT-ELECT-FINALPROJ-main/Content/course1.php';
+    window.location.href = '/IT-ELECT-FINALPROJ-main/Content/MATH/course1.php';
 }
+function quiz1() {
+    window.location.href = '/IT-ELECT-FINALPROJ-main/Content/MATH/quiz1.php';
+}
+
+function quiz2() {
+    window.location.href = '/IT-ELECT-FINALPROJ-main/Content/MATH/quiz2.php';
+}
+
+function quiz3() {
+    window.location.href = '/IT-ELECT-FINALPROJ-main/Content/MATH/quiz3.php';
+}
+

@@ -117,8 +117,8 @@ nav .banner-selection a:hover::after{
     height: 100%;
     width: 100%;
     padding: 20px;
-    background: rgba(255, 255, 255, 0.308);
-    box-shadow: 0 8px 32px 0 #0817ebab;
+    background: rgba(104, 104, 104, 0.308);
+    box-shadow: 0 8px 32px 0 rgba(149, 155, 240, 0.404);
     border-radius: 20px;
     border: 0;
 }
