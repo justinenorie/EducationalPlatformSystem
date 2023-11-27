@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EDUCATIVO Courses</title>
     <link rel="stylesheet" href="/IT-ELECT-FINALPROJ-main/Content/courses-panel.css">
-    <script src="/IT-ELECT-FINALPROJ-main/Scripts/course-panel.js"></script>
+    <script src="/IT-ELECT-FINALPROJ-main/Scripts/courses.js"></script>
 </head>
 <body>
     <div class="banner">
