@@ -13,8 +13,6 @@ function showContent(contentId, buttonId) {
         selectedContent.style.display = 'inline';
     }
 
-    // Your existing logic to show content goes here
-
     if (buttonId) {
         // Remove 'active' class from the previously active button
         if (activeButtonId) {
