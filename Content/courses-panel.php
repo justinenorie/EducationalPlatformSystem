@@ -26,23 +26,22 @@
     </div>
 
     <div class="courses">
-        <h1>Featured Courses</h1>
-        <div class="course">
-            <h1>COURSE 1</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente minus, odio ut possimus voluptatum fugiat earum alias facilis, quasi est blanditiis similique harum libero. Praesentium voluptatibus maxime obcaecati similique sapiente magnam beatae tempore quia fugit animi minus hic saepe, optio itaque, eum nam harum suscipit aut quisquam. Veniam, nisi repudiandae?</p>
-            <div class="learn-button"><button onclick="course1()">LEARN NOW</button></div>
-           
+        <h1 class ="featured-courses">Featured Courses</h1>
+        <div class="course math">
+            <h1>MATHEMATICS</h1>
+            <p>Description for mathematics Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente minus, odio ut possimus voluptatum fugiat earum alias facilis, quasi est blanditiis similique harum libero. Praesentium voluptatibus maxime obcaecati similique sapiente magnam beatae tempore quia fugit animi minus hic saepe, optio itaque, eum nam harum suscipit aut quisquam. Veniam, nisi repudiandae?</p>
+            <div class="learn-button"><button onclick="course1()">LEARN NOW</button></div> 
         </div>
 
         <div class="course">
-            <h1>COURSE 2</h1>
+            <h1>ENGLISH</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente minus, odio ut possimus voluptatum fugiat earum alias facilis, quasi est blanditiis similique harum libero. Praesentium voluptatibus maxime obcaecati similique sapiente magnam beatae tempore quia fugit animi minus hic saepe, optio itaque, eum nam harum suscipit aut quisquam. Veniam, nisi repudiandae?</p>
             <div class="learn-button"> <button>LEARN NOW</button></div>
            
         </div>
 
         <div class="course">
-            <h1>COURSE 3</h1>
+            <h1>SCIENCE</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente minus, odio ut possimus voluptatum fugiat earum alias facilis, quasi est blanditiis similique harum libero. Praesentium voluptatibus maxime obcaecati similique sapiente magnam beatae tempore quia fugit animi minus hic saepe, optio itaque, eum nam harum suscipit aut quisquam. Veniam, nisi repudiandae?</p>
             <div class="learn-button"> <button>LEARN NOW</button></div>
            

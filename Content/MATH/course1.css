@@ -6,9 +6,8 @@ body{
     width: auto;
     color: white;
     font-family: Arial, sans-serif;
-    background: linear-gradient(to left, #0a0d10, #323133);
+    background: linear-gradient(to top, #0a0d10, #323133);
 }
-
 
 .banner {
     background: #251a274d;
@@ -39,6 +38,14 @@ a{
     font-size: 20px;
 }
 
+.banner-title h1{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    margin-left: 50px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
 nav .banner-selection a{
     position: relative;
     width: 0;
@@ -67,6 +74,7 @@ nav .banner-selection a:hover::after{
     display: flex;
     text-align: center;
     margin: 20px;
+    margin-right: 50px;
     width: auto;
     height: auto;
     justify-content: center;
@@ -82,17 +90,6 @@ nav .banner-selection a:hover::after{
     padding: 10px 0;
     box-shadow: 0 0 20px #6855e033;
     transition: 0.5s;
-}
-  
-.reg {
-    color: white;
-    background-color: #6855e0;
-}
-  
-.log {
-    color: #6855e0;
-    background-color: #ffffff;
-    border: 1px solid #6855e0;
 }
   
 .users button:hover {

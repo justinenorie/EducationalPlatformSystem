@@ -11,7 +11,7 @@ body{
     width: auto;
     color: white;
     font-family: Arial, sans-serif;
-    background: linear-gradient(to left, #0a0d10, #323133);
+    background: linear-gradient(to top, #0a0d10, #323133);
 }
 
 .banner {
@@ -80,6 +80,7 @@ nav .banner-selection a:hover::after{
     display: flex;
     text-align: center;
     margin: 20px;
+    margin-right: 50px;
     width: auto;
     height: auto;
     justify-content: center;
@@ -97,17 +98,6 @@ nav .banner-selection a:hover::after{
     transition: 0.5s;
 }
   
-.reg {
-    color: white;
-    background-color: #6855e0;
-}
-  
-.log {
-    color: #6855e0;
-    background-color: #ffffff;
-    border: 1px solid #6855e0;
-}
-  
 .users button:hover {
     color: white;
     width: 120px; 
@@ -120,21 +110,43 @@ nav .banner-selection a:hover::after{
     
 }
 
+.featured{
+    margin-left: 20px;
+}
+
+.courses h1{
+    text-shadow: 4px 3px 6px rgba(149, 155, 240, 0.404);
+    font-size: 40px;
+    
+}
+
+.courses p{
+    font-weight: 600;
+    line-height: 24px;
+    font-size: 20px;
+    
+}
+
 .course{
-    margin-top: 50px;
-    height: 35vh;
-    width: 203vh;
-    padding: 20px;
+    margin: 40px 40px 80px 40px; 
+    height: auto;
+    width: auto;
+    padding: 25px;
     box-shadow: 0 8px 32px 0 rgba(149, 155, 240, 0.404);
     border-radius: 20px;
     border: 0;
-    transition: 1s;
+}
+.math{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+                url('/IT-ELECT-FINALPROJ-main/Pictures/mathematics.jpg');
+    background-repeat: no-repeat;
+    background-size: 208vh auto;
+    background-position: center center;
+    width: auto;
+    height: auto;
 }
 
-.course:hover{
-    height: 38vh;
-    width: 205vh;
-}
+
 
 .learn-button{
     margin-top: 30px;
@@ -160,7 +172,7 @@ nav .banner-selection a:hover::after{
 .learn-button button:hover{
     width: 180px;
     height: 50px;
-    background-color: cyan;
+    background-color: rgba(0, 255, 255, 0.507);
 }
 
 /* Scroll Bar Design */
