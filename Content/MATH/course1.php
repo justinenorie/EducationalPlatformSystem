@@ -21,9 +21,7 @@
             </div>
         </nav>
         <div class="users">
-            <a href="/IT-ELECT-FINALPROJ-main/User-interface/login.php"><button class="log">Login</button></a>
-            <a href="/IT-ELECT-FINALPROJ-main/User-interface/registration.php"><button class="reg">Sign Up</button></a>
-            
+            <a href="/IT-ELECT-FINALPROJ-main/User-interface/Login_form/index.php?logout=true"><button>Logout</button></a>
         </div>
     </div>
 

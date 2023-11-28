@@ -1,16 +1,3 @@
-<?php
-  session_start();
-  if(!isset($_SESSION['userlogin'])){
-    header ("Location: login.php");
-  }
-  if(isset($_GET['logout'])){
-    sleep(2);
-    session_destroy();
-    unset($_SESSION);
-    header("Location: login.php");
-    exit();
-  }
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -34,7 +21,7 @@
             </div>
         </nav>
         <div class="users">
-            <a href="index.php?logout=true"><button>Logout</button></a>
+            <a href="/IT-ELECT-FINALPROJ-main/User-interface/Login_form/index.php?logout=true"><button>Logout</button></a>
         </div>
     </div>
 
