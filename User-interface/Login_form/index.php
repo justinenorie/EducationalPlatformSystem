@@ -39,7 +39,7 @@
 <div class="whole-container">
     <div class="left-container">
 
-          <h1  data-text="anywhere and anytime">Improve your knowledge <br></h1>
+          <h1  data-text="anytime anywhere">Improve your knowledge <br></h1>
           <p> Embodies the essence of enlightenment and knowledge. It signifies a journey of discovery, growth, and the pursuit of intellectual development. In the realm of Educativo, individuals engage in a dynamic process of acquiring insights, skills, and wisdom that not only expand their minds but also empower them to contribute meaningfully to the world.</p>
           <button>Join Class Now!</button>
     </div>

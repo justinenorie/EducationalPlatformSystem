@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Course 1</title>
+    <title>MATHEMATICS</title>
     <link rel="stylesheet" href="/IT-ELECT-FINALPROJ-main/Content/MATH/course1.css">
     <script src="/IT-ELECT-FINALPROJ-main/Scripts/courses.js"></script>
 </head>
@@ -15,9 +15,9 @@
         </div>
         <nav>
             <div class="banner-selection">
-                <a href="#">Home</a>
-                <a href="#">Courses</a>
-                <a href="#">About Us</a>
+                <a href="/IT-ELECT-FINALPROJ-main/User-interface/Login_form/index.php">Home</a>
+                <a href="/IT-ELECT-FINALPROJ-main/Content/courses-panel.php">Courses</a>
+                <a href="/IT-ELECT-FINALPROJ-main/User-interface/Login_form/index.php #aboutus">About Us</a>
             </div>
         </nav>
         <div class="users">

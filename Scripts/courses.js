@@ -1,3 +1,4 @@
+//This is a Script for Function Design only
 let activeButtonId = null;
 
 function showContent(contentId, buttonId) {
