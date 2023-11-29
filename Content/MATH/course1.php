@@ -10,7 +10,6 @@
 <body>
     <div class="banner">
         <div class="banner-title">
-                <!-- <img src="" alt=""> -->
                 <h1>EDUCATIVO</h1>
         </div>
         <nav>
