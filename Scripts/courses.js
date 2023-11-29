@@ -52,3 +52,8 @@ function english() {
     window.location.href = '/IT-ELECT-FINALPROJ-main/Content/ENGLISH/english.php';
 }
 
+//Science
+function science() {
+    window.location.href = '/IT-ELECT-FINALPROJ-main/Content/SCIENCE/science.php';
+}
+
