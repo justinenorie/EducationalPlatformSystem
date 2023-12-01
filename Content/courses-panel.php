@@ -17,7 +17,7 @@
             <div class="banner-selection">
                 <a id="home" href="">Home</a>
                 <a href="#">Courses</a>
-                <a href="/IT-ELECT-FINALPROJ-main/User-interface/Login_form/index.php #aboutus">About Us</a>
+                <a id="aboutus" href="">About Us</a>
             </div>
         </nav>
         <div class="users">
@@ -30,42 +30,21 @@
         <div class="course math">
             <h1>MATHEMATICS</h1>
             <p>Description for mathematics Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente minus, odio ut possimus voluptatum fugiat earum alias facilis, quasi est blanditiis similique harum libero. Praesentium voluptatibus maxime obcaecati similique sapiente magnam beatae tempore quia fugit animi minus hic saepe, optio itaque, eum nam harum suscipit aut quisquam. Veniam, nisi repudiandae?</p>
-            <div class="learn-button"><button onclick="mathematics()">LEARN NOW</button></div> 
+            <div id="math" class="learn-button"><button onclick="mathematics()">LEARN NOW</button></div> 
         </div>
 
         <div class="course english">
             <h1>ENGLISH</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente minus, odio ut possimus voluptatum fugiat earum alias facilis, quasi est blanditiis similique harum libero. Praesentium voluptatibus maxime obcaecati similique sapiente magnam beatae tempore quia fugit animi minus hic saepe, optio itaque, eum nam harum suscipit aut quisquam. Veniam, nisi repudiandae?</p>
-            <div class="learn-button"> <button onclick="english()">LEARN NOW</button></div>
+            <div id="eng" class="learn-button"> <button onclick="english()">LEARN NOW</button></div>
            
         </div>
 
         <div class="course science">
             <h1>SCIENCE</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente minus, odio ut possimus voluptatum fugiat earum alias facilis, quasi est blanditiis similique harum libero. Praesentium voluptatibus maxime obcaecati similique sapiente magnam beatae tempore quia fugit animi minus hic saepe, optio itaque, eum nam harum suscipit aut quisquam. Veniam, nisi repudiandae?</p>
-            <div class="learn-button"> <button onclick="science()">LEARN NOW</button></div>
+            <div id="sci" class="learn-button"> <button onclick="science()">LEARN NOW</button></div>
         </div>    
     </div>
-<script>
-    document.addEventListener("DOMContentLoaded", function() {
-        var delayInMilliseconds = 1000;
-        function redirect_to_mainpage() {
-        window.location.href = "/IT-ELECT-FINALPROJ-main/User-interface/Login_form/index.php";
-        }
-        function redirect_Courses_banner() {
-        window.location.href = "/IT-ELECT-FINALPROJ-main/Content/courses-panel.php";
-        }
-
-        document.getElementById("home").addEventListener("click", function(event) {
-        event.preventDefault();
-        setTimeout(redirect_to_mainpage, delayInMilliseconds);
-        });
-
-        document.getElementById("courses").addEventListener("click", function(event) {
-        event.preventDefault();
-        setTimeout(redirect_Courses_banner, delayInMilliseconds);
-        });
-    });
-</script>
 </body>
 </html>

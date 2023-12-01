@@ -40,22 +40,23 @@ function science() {
     window.location.href = '/IT-ELECT-FINALPROJ-main/Content/SCIENCE/science.php';
 }
 
+//DELAY IN COURSE PANEL
 document.addEventListener("DOMContentLoaded", function() {
     var delayInMilliseconds = 1000;
-    function redirect_to_Courses() {
-      window.location.href = "/IT-ELECT-FINALPROJ-main/Content/courses-panel.php";
+    function redirect_to_mainpage() {
+    window.location.href = "/IT-ELECT-FINALPROJ-main/User-interface/Login_form/index.php";
     }
-    function redirect_Courses_banner() {
-      window.location.href = "/IT-ELECT-FINALPROJ-main/Content/courses-panel.php";
+    function redirect_aboutus() {
+    window.location.href = "/IT-ELECT-FINALPROJ-main/User-interface/Login_form/index.php #aboutus";
     }
 
-    document.getElementById("join-class").addEventListener("click", function(event) {
-      event.preventDefault();
-      setTimeout(redirect_to_Courses, delayInMilliseconds);
+    document.getElementById("home").addEventListener("click", function(event) {
+    event.preventDefault();
+    setTimeout(redirect_to_mainpage, delayInMilliseconds);
     });
 
-    document.getElementById("courses").addEventListener("click", function(event) {
-      event.preventDefault();
-      setTimeout(redirect_Courses_banner, delayInMilliseconds);
+    document.getElementById("aboutus").addEventListener("click", function(event) {
+    event.preventDefault();
+    setTimeout(redirect_aboutus, delayInMilliseconds);
     });
-  });
+});
