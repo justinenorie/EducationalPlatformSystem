@@ -28,7 +28,7 @@
         <nav>
             <div class="banner-selection">
                 <a href="#">Home</a>
-                <a href="/IT-ELECT-FINALPROJ-main/Content/courses-panel.php">Courses</a>
+                <a id="courses" href="">Courses</a>
                 <a href="#aboutus">About Us</a>
             </div>
         </nav>
@@ -41,7 +41,7 @@
 
           <h1  data-text="anytime anywhere">Improve your knowledge <br></h1>
           <p> Embodies the essence of enlightenment and knowledge. It signifies a journey of discovery, growth, and the pursuit of intellectual development. In the realm of Educativo, individuals engage in a dynamic process of acquiring insights, skills, and wisdom that not only expand their minds but also empower them to contribute meaningfully to the world.</p>
-          <button>Join Class Now!</button>
+          <button id="join-class">Join Class Now!</button>
     </div>
     <div class="right-container">
           <img src="Image/educ_page-removebg-preview.png" alt="">
@@ -76,6 +76,30 @@
   <div class="copyright-container">
               <p>© Copyright 2023 EDUCATIVO. All rights reserved.</p>
             </div>
+            <script>
+                document.addEventListener("DOMContentLoaded", function() {
+                  var delayInMilliseconds = 1000;
+                  function redirect_to_Courses() {
+                    window.location.href = "/IT-ELECT-FINALPROJ-main/Content/courses-panel.php";
+                  }
+                  function redirect_Courses_banner() {
+                    window.location.href = "/IT-ELECT-FINALPROJ-main/Content/courses-panel.php";
+                  }
+
+                  document.getElementById("join-class").addEventListener("click", function(event) {
+                    event.preventDefault();
+                    setTimeout(redirect_to_Courses, delayInMilliseconds);
+                  });
+
+                  document.getElementById("courses").addEventListener("click", function(event) {
+                    event.preventDefault();
+                    setTimeout(redirect_Courses_banner, delayInMilliseconds);
+                  });
+
+                });
+
+        
+</script>
 
 </body>
 </html>

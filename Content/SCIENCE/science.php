@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ENGLISH</title>
     <link rel="stylesheet" href="/IT-ELECT-FINALPROJ-main/Content/SCIENCE/science.css">
-    <script src="/IT-ELECT-FINALPROJ-main/Scripts/courses.js"></script>
+    <script src="/IT-ELECT-FINALPROJ-main/Content/courses.js"></script>
 </head>
 <body>
     <div class="banner">

@@ -15,17 +15,12 @@ function showContent(contentId, buttonId) {
     }
 
     if (buttonId) {
-        // Remove 'active' class from the previously active button
         if (activeButtonId) {
             const prevActiveButton = document.getElementById(activeButtonId);
             prevActiveButton.classList.remove('active');
         }
-
-        // Add the 'active' class to the clicked button
         const currentButton = document.getElementById(buttonId);
         currentButton.classList.add('active');
-
-        // Update the active button ID
         activeButtonId = buttonId;
     }
 }
@@ -33,18 +28,6 @@ function showContent(contentId, buttonId) {
 //Mathematics
 function mathematics() {
     window.location.href = '/IT-ELECT-FINALPROJ-main/Content/MATH/course1.php';
-}
-
-function q1() {
-    window.location.href = '/IT-ELECT-FINALPROJ-main/Content/MATH/quiz1.php';
-}
-
-function quiz2() {
-    window.location.href = '/IT-ELECT-FINALPROJ-main/Content/MATH/quiz2.php';
-}
-
-function quiz3() {
-    window.location.href = '/IT-ELECT-FINALPROJ-main/Content/MATH/quiz3.php';
 }
 
 //English
@@ -57,3 +40,22 @@ function science() {
     window.location.href = '/IT-ELECT-FINALPROJ-main/Content/SCIENCE/science.php';
 }
 
+document.addEventListener("DOMContentLoaded", function() {
+    var delayInMilliseconds = 1000;
+    function redirect_to_Courses() {
+      window.location.href = "/IT-ELECT-FINALPROJ-main/Content/courses-panel.php";
+    }
+    function redirect_Courses_banner() {
+      window.location.href = "/IT-ELECT-FINALPROJ-main/Content/courses-panel.php";
+    }
+
+    document.getElementById("join-class").addEventListener("click", function(event) {
+      event.preventDefault();
+      setTimeout(redirect_to_Courses, delayInMilliseconds);
+    });
+
+    document.getElementById("courses").addEventListener("click", function(event) {
+      event.preventDefault();
+      setTimeout(redirect_Courses_banner, delayInMilliseconds);
+    });
+  });

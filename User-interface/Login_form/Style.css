@@ -10,7 +10,7 @@ body{
 .left-container{
   height: 870px;
   width: 50%;
-  background: linear-gradient(to left, #0a0d10, #323133);
+  background: linear-gradient(to right, #6875eb, #e98fe9, #eeaa82);
   display: flex;
   justify-content: center;
   position: relative;
