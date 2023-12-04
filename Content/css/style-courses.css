@@ -193,15 +193,14 @@ nav .banner-selection a:hover::after{
 
 .content p{
     line-height: 28px;
+    font-weight: 550;
 }
-
 .course-quiz{
     display: flex;
     justify-content: center;
     width: auto;
     height: auto;
 }
-
 .course-quiz button{
     background: #526D82;
     font-size: 20px;
@@ -220,45 +219,49 @@ nav .banner-selection a:hover::after{
     height: 9.5vh;
 }
 
-/* Styles for the quiz pop-up container */
+/* QUIZ-MATH FORM */
 .quiz-popup {
-    display: none;
-    position: fixed;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: white;
+    background-color: rgba(248, 232, 232, 0.889);
     border-radius: 20px;
-    padding: 20px;
+    padding: 60px;
     border: 1px solid #ccc;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     z-index: 1000;
-    width: 90%;
-    height: 90%;
-}
-
-/* Styles for the overlay background */
-.overlay {
-    display: none;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
+    width: auto;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.719);
-    backdrop-filter: blur( 10px );
-    -webkit-backdrop-filter: blur( 20px );
-    z-index: 900;
 }
-
+.options-container{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.options-container div label div{
+    margin-top: 30px;
+}
+input[type="radio"] {
+    margin-right: 2px; /* Adjust margin as needed */
+}
+.quiz-popup div{
+    margin: 20px;
+}
 .quiz-popup form {
     display: flex;
     flex-direction: column;
+
 }
 .quiz-popup label {
     color: black;
-    margin-bottom: 20px;
 }
+.submit-btn{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+
 
 /* Scroll Bar Design */
 ::-webkit-scrollbar {

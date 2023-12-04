@@ -34,7 +34,7 @@
                 <button class="topic" onclick="showContent('content3', 'button3')" id="button3">Topic 3</button>
                 <button class="topic" onclick="showContent('content4', 'button4')" id="button4">CERTIFICATE</button>
             </div>
-        
+
             <div class="contents-container">
                 <div class="content" id="content1">
                     <h2>Content for Topic 1</h2>
@@ -58,38 +58,19 @@
                     <p>This is the content related to Topic 3.</p>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. A dolore quibusdam reprehenderit ducimus officia delectus et dolor praesentium assumenda blanditiis culpa, accusantium harum ea omnis laudantium nam. Cum, accusamus quaerat accusantium officiis ipsam, consectetur voluptatum libero labore itaque et illo sequi? Placeat enim pariatur excepturi sunt similique expedita hic commodi labore, culpa, laboriosam illum molestiae aspernatur reiciendis fugit nulla minima. Omnis in rem aperiam dignissimos magni maxime, atque blanditiis esse autem temporibus sequi alias possimus! Qui reprehenderit consequatur tenetur quo labore, corporis eius nesciunt blanditiis! Enim iure eos doloremque cumque dolore, nihil ipsum provident obcaecati. Quibusdam eveniet sequi tenetur neque!</p>
                 </div>
-                <!-- QUIZZES -->
-                <div class="overlay" onclick="hideQuizPopup()"></div>
-                <div class="quiz-popup">
-                    <form action="quiz_handler.php" method="post">
-                        <label for="question1">Question 1: What is 2 + 2?</label>
-                        <input type="text" id="question1" name="question1" required>
-                        <label for="question1">Question 1: What is 2 + 2?</label>
-                        <input type="text" id="question1" name="question1" required>
-
-                        <label for="choices">Choose one or more options:</label>
-                        <input type="button" name="question3" id="">
-                            <select id="choices" name="choices" multiple>
-                                <option value="a">Option A</option>
-                                <option value="b">Option B</option>
-                                <option value="c">Option C</option>
-                            </select>
-                        <!-- MORE QUESTION  -->
-
-                        <!-- Input for the score -->
-                        <input type="hidden" id="score" name="score" value="0">
-
-                        <!-- Submit button -->
-                        <button type="button" onclick="checkScores(); hideQuizPopup()">Submit</button>
-                    </form>
-                </div>
             </div>
         </div>
     </div>
     <script>
-        // Event listener for the "Take the Quiz" button
-        document.getElementById('btn_quiz1').addEventListener('click', function() {
-            showQuizPopup();
+        document.addEventListener("DOMContentLoaded", function() {
+            var delayInMilliseconds = 1000;
+            function redirect_to_quiz_math() {
+            window.location.href = "/IT-ELECT-FINALPROJ-main/Content/math-quiz.php";
+            }
+            document.getElementById("btn_quiz1").addEventListener("click", function(event) {
+            event.preventDefault();
+            setTimeout(redirect_to_quiz_math, delayInMilliseconds);
+            });
         });
     </script>
 

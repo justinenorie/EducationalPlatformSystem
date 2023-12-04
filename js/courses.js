@@ -1,5 +1,6 @@
 //This is a Script for Function Design only
 let activeButtonId = null;
+
 function showContent(contentId, buttonId) {
     var allContents = document.querySelectorAll('.content');
     allContents.forEach(function(content) {
@@ -14,7 +15,6 @@ function showContent(contentId, buttonId) {
             selectedContent.classList.add('active');
         }, 200);
     }
-
     if (buttonId) {
         if (activeButtonId) {
             const prevActiveButton = document.getElementById(activeButtonId);
@@ -25,6 +25,11 @@ function showContent(contentId, buttonId) {
         activeButtonId = buttonId;
     }
 }
+
+// Show the first topic by default
+document.addEventListener("DOMContentLoaded", function() {
+    showContent('content1', 'button1');
+});
 
 //LINKING PAGES TOGETHER
 //Mathematics
@@ -62,24 +67,4 @@ document.addEventListener("DOMContentLoaded", function() {
     setTimeout(redirect_aboutus, delayInMilliseconds);
     });
 });
-
-// Function to show the quiz pop-up
-function showQuizPopup() {
-    var quizPopup = document.querySelector('.quiz-popup');
-    var overlay = document.querySelector('.overlay');
-
-    // Display the quiz pop-up and overlay
-    quizPopup.style.display = 'block';
-    overlay.style.display = 'block';
-}
-
-// Function to hide the quiz pop-up
-function hideQuizPopup() {
-    var quizPopup = document.querySelector('.quiz-popup');
-    var overlay = document.querySelector('.overlay');
-
-    // Hide the quiz pop-up and overlay
-    quizPopup.style.display = 'none';
-    overlay.style.display = 'none';
-}
 
