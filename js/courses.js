@@ -27,17 +27,17 @@ function showContent(contentId, buttonId) {
 
 //Mathematics
 function mathematics() {
-    window.location.href = '/IT-ELECT-FINALPROJ-main/Content/MATH/course1.php';
+    window.location.href = '/IT-ELECT-FINALPROJ-main/Content/math.php';
 }
 
 //English
 function english() {
-    window.location.href = '/IT-ELECT-FINALPROJ-main/Content/ENGLISH/english.php';
+    window.location.href = '/IT-ELECT-FINALPROJ-main/Content/english.php';
 }
 
 //Science
 function science() {
-    window.location.href = '/IT-ELECT-FINALPROJ-main/Content/SCIENCE/science.php';
+    window.location.href = '/IT-ELECT-FINALPROJ-main/Content/science.php';
 }
 
 //DELAY IN COURSE PANEL

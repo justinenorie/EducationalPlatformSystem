@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MATHEMATICS</title>
-    <link rel="stylesheet" href="/IT-ELECT-FINALPROJ-main/Content/MATH/course1.css">
-    <script src="/IT-ELECT-FINALPROJ-main/Content/courses.js"></script>
+    <title>ENGLISH</title>
+    <link rel="stylesheet" href="/IT-ELECT-FINALPROJ-main/Content/css/english.css">
+    <script src="/IT-ELECT-FINALPROJ-main/js/courses.js"></script>
 </head>
 <body>
     <div class="banner">
         <div class="banner-title">
+                <!-- <img src="" alt=""> -->
                 <h1>EDUCATIVO</h1>
         </div>
         <nav>
@@ -25,7 +26,7 @@
     </div>
 
     <div class="contain">
-        <div class="title-course"><h1>MATHEMATICS</h1></div>  
+        <div class="title-course"><h1>ENGLISH</h1></div>  
     
         <div class="course-container">
             <div class="topics">

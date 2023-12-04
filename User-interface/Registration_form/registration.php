@@ -6,7 +6,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="Design.css">
+  <link rel="stylesheet" href="/IT-ELECT-FINALPROJ-MAIN/User-interface/css/Design.css">
   <title>EDUCATIVO Sign-up</title>
 </head>
 <body>

@@ -3,14 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ENGLISH</title>
-    <link rel="stylesheet" href="/IT-ELECT-FINALPROJ-main/Content/MATH/course1.css">
-    <script src="/IT-ELECT-FINALPROJ-main/Content/courses.js"></script>
+    <title>MATHEMATICS</title>
+    <link rel="stylesheet" href="/IT-ELECT-FINALPROJ-main/Content/css/math.css">
+    <script src="/IT-ELECT-FINALPROJ-main/js/courses.js"></script>
 </head>
 <body>
     <div class="banner">
         <div class="banner-title">
-                <!-- <img src="" alt=""> -->
                 <h1>EDUCATIVO</h1>
         </div>
         <nav>
@@ -26,7 +25,7 @@
     </div>
 
     <div class="contain">
-        <div class="title-course"><h1>ENGLISH</h1></div>  
+        <div class="title-course"><h1>MATHEMATICS</h1></div>  
     
         <div class="course-container">
             <div class="topics">
@@ -59,9 +58,54 @@
                     <p>This is the content related to Topic 3.</p>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. A dolore quibusdam reprehenderit ducimus officia delectus et dolor praesentium assumenda blanditiis culpa, accusantium harum ea omnis laudantium nam. Cum, accusamus quaerat accusantium officiis ipsam, consectetur voluptatum libero labore itaque et illo sequi? Placeat enim pariatur excepturi sunt similique expedita hic commodi labore, culpa, laboriosam illum molestiae aspernatur reiciendis fugit nulla minima. Omnis in rem aperiam dignissimos magni maxime, atque blanditiis esse autem temporibus sequi alias possimus! Qui reprehenderit consequatur tenetur quo labore, corporis eius nesciunt blanditiis! Enim iure eos doloremque cumque dolore, nihil ipsum provident obcaecati. Quibusdam eveniet sequi tenetur neque!</p>
                 </div>
+                <!-- Quiz form -->
+                <div class="quiz-form" id="quizForm">
+                    <form action="quiz_handler.php" method="post">
+                        <label for="question1">Question 1: What is 2 + 2?</label>
+                        <input type="text" id="question1" name="question1" required>
+                        
+                        <!-- Add more questions as needed -->
+
+                        <!-- Input for the score -->
+                        <input type="hidden" id="score" name="score" value="0">
+
+                        <!-- Submit button -->
+                        <button type="button" onclick="checkScores()">Submit</button>
+                    </form>
+                </div>
             </div>
         </div>
     </div>
     
+    
+
+    <script>
+        // Function to show the quiz form
+        function showQuiz(contentId, buttonId) {
+            // Your existing logic to show content goes here
+
+            // Hide the quiz form initially
+            var quizForm = document.getElementById('quizForm');
+            quizForm.style.display = 'none';
+
+            // Show the quiz form when the button is clicked
+            quizForm.style.display = 'block';
+
+            // Your existing logic to highlight the active button goes here
+        }
+
+        // Your existing functions for quiz1(), quiz2(), etc.
+
+        // Function to check scores (you can implement this based on your needs)
+        function checkScores() {
+            // Your logic to calculate and handle quiz scores goes here
+            // Update the score input value before submitting the form
+            document.getElementById('score').value = calculatedScore;
+
+            // Submit the form
+            document.querySelector('form').submit();
+        }
+    </script>
+
 </body>
 </html>

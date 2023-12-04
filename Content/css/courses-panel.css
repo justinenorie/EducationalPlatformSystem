@@ -140,7 +140,7 @@ nav .banner-selection a:hover::after{
 
 .math{
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-                url('/IT-ELECT-FINALPROJ-main/Pictures/mathematics.jpg');
+                url('/IT-ELECT-FINALPROJ-main/image/mathematics.jpg');
     background-repeat: no-repeat;
     background-size: 208vh auto;
     background-position: center center;
@@ -150,7 +150,7 @@ nav .banner-selection a:hover::after{
 
 .english{
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-                url('/IT-ELECT-FINALPROJ-main/Pictures/english.jpg');
+                url('/IT-ELECT-FINALPROJ-main/image/english.jpg');
     background-repeat: no-repeat;
     background-size: 208vh auto;
     background-position: center center;
@@ -160,7 +160,7 @@ nav .banner-selection a:hover::after{
 
 .science{
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-                url('/IT-ELECT-FINALPROJ-main/Pictures/science.jpg');
+                url('/IT-ELECT-FINALPROJ-main/image/science.jpg');
     background-repeat: no-repeat;
     background-size: 208vh auto;
     background-position: center center;

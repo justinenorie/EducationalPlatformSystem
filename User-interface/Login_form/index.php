@@ -17,12 +17,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="outline.css">
+    <link rel="stylesheet" href="/IT-ELECT-FINALPROJ-MAIN/User-interface/css/outline.css">
 </head>
 <body>
     <div class="banner">
         <div class="banner-title">
-                <!-- <img src="" alt=""> -->
                 <h1>EDUCATIVO</h1>
         </div>
         <nav>
@@ -44,7 +43,7 @@
           <button id="join-class">Join Class Now!</button>
     </div>
     <div class="right-container">
-          <img src="Image/educ_page-removebg-preview.png" alt="">
+          <img src="/IT-ELECT-FINALPROJ-MAIN/image/educ_page-removebg-preview.png" alt="">
     </div>
     </div>
     <div class="bottom">
@@ -52,12 +51,12 @@
           <h1 id="aboutus">About Us</h1>
           <div class="about-us-container">
             
-          <p>Welcome to EDUCATIVO!, we are dedicated to fostering a passion for learning and providing quality education that empowers individuals to reach their full potential. With a commitment to academic excellence, innovation, and inclusivity, our team of experienced educators strives to create a dynamic and engaging learning environment for students 
+          <p>Welcome to EDUCATIVO! We are dedicated to fostering a passion for learning and providing quality education that empowers individuals to reach their full potential. With a commitment to academic excellence, innovation, and inclusivity, our team of experienced educators strives to create a dynamic and engaging learning environment for students 
           <p>Whether you're a curious learner, a dedicated student, or a lifelong scholar, our diverse range of educational programs and resources are designed to inspire and equip you with the knowledge and skills needed to navigate an ever-changing world. Join us on a journey of discovery, where education goes beyond the classroom, and together, we build a brighter future through the power of knowledge.</p></div>
           
     </div>
     <div class="photo">
-        <img src="image/404970693_1006356280470012_1616781361438574168_n.png" alt="">
+        <img src="/IT-ELECT-FINALPROJ-MAIN/image/404970693_1006356280470012_1616781361438574168_n.png" alt="">
 
     </div>
   </div>
@@ -66,10 +65,10 @@
           <h1>CONTACT INFO</h1>
         </div>
         <div class="contact-logo">
-              <a href=""><img class="facebook" src="image/facebook.svg" alt=""></a>
-              <a href="#"><img class="google" src="image/google.svg" alt=""></a>
-              <a href="#"><img class="instagram" src="image/instagram.svg" alt=""></a>
-              <a href="#"><img class="github" src="image/square-github.svg" alt=""></a>
+              <a href=""><img class="facebook" src="/IT-ELECT-FINALPROJ-MAIN/image/facebook.svg" alt=""></a>
+              <a href="#"><img class="google" src="/IT-ELECT-FINALPROJ-MAIN/image/google.svg" alt=""></a>
+              <a href="#"><img class="instagram" src="/IT-ELECT-FINALPROJ-MAIN/image/instagram.svg" alt=""></a>
+              <a href="#"><img class="github" src="/IT-ELECT-FINALPROJ-MAIN/image/square-github.svg" alt=""></a>
         </div>
             
   </div>

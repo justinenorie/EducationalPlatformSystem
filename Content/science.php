@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ENGLISH</title>
-    <link rel="stylesheet" href="/IT-ELECT-FINALPROJ-main/Content/SCIENCE/science.css">
-    <script src="/IT-ELECT-FINALPROJ-main/Content/courses.js"></script>
+    <link rel="stylesheet" href="/IT-ELECT-FINALPROJ-main/Content/css/science.css">
+    <script src="/IT-ELECT-FINALPROJ-main/js/courses.js"></script>
 </head>
 <body>
     <div class="banner">

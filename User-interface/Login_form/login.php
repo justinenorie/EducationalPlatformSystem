@@ -10,14 +10,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="Style.css">
+  <link rel="stylesheet" href="/IT-ELECT-FINALPROJ-MAIN/User-interface/css/Style.css">
   <title>EDUCATIVO Login</title>
 </head>
 <body>
   <div class="whole-container">
   <div class="left-container">
     <h1>EDUCATIVO</h1>
-      <img src="image/educ_page-removebg-preview.png" alt="">
+      <img src="/IT-ELECT-FINALPROJ-MAIN/image/educ_page-removebg-preview.png" alt="">
   </div>
   <div class="right-container">
     
@@ -30,7 +30,7 @@
     <input type="password" id="password" name="password" placeholder="Enter Password">
     </div>
     <label><input type="checkbox">Remember Me</label>
-    <input type="submit" class="button" id="login" value="login" name="login">
+    <input type="submit" class="button" id="login" value="LOGIN" name="login">
     <p id="signup-message">Doesn't have an account yet?<a href="/IT-ELECT-FINALPROJ-main/User-interface/Registration_form/registration.php" id="signup-link">Sign up</a></p>
   </form>
   </div>
