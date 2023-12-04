@@ -1,17 +1,18 @@
 //This is a Script for Function Design only
 let activeButtonId = null;
-
 function showContent(contentId, buttonId) {
-    // Hide all content elements
     var allContents = document.querySelectorAll('.content');
     allContents.forEach(function(content) {
         content.style.display = 'none';
+        content.classList.remove('active');
     });
 
-    // Show the selected content
     var selectedContent = document.getElementById(contentId);
     if (selectedContent) {
-        selectedContent.style.display = 'inline';
+        setTimeout(function() {
+            selectedContent.style.display = 'block';
+            selectedContent.classList.add('active');
+        }, 200);
     }
 
     if (buttonId) {
@@ -25,6 +26,7 @@ function showContent(contentId, buttonId) {
     }
 }
 
+//LINKING PAGES TOGETHER
 //Mathematics
 function mathematics() {
     window.location.href = '/IT-ELECT-FINALPROJ-main/Content/math.php';
@@ -60,3 +62,24 @@ document.addEventListener("DOMContentLoaded", function() {
     setTimeout(redirect_aboutus, delayInMilliseconds);
     });
 });
+
+// Function to show the quiz pop-up
+function showQuizPopup() {
+    var quizPopup = document.querySelector('.quiz-popup');
+    var overlay = document.querySelector('.overlay');
+
+    // Display the quiz pop-up and overlay
+    quizPopup.style.display = 'block';
+    overlay.style.display = 'block';
+}
+
+// Function to hide the quiz pop-up
+function hideQuizPopup() {
+    var quizPopup = document.querySelector('.quiz-popup');
+    var overlay = document.querySelector('.overlay');
+
+    // Hide the quiz pop-up and overlay
+    quizPopup.style.display = 'none';
+    overlay.style.display = 'none';
+}
+

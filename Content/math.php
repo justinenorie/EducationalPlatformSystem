@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MATHEMATICS</title>
-    <link rel="stylesheet" href="/IT-ELECT-FINALPROJ-main/Content/css/math.css">
+    <link rel="stylesheet" href="/IT-ELECT-FINALPROJ-main/Content/css/style-courses.css">
     <script src="/IT-ELECT-FINALPROJ-main/js/courses.js"></script>
 </head>
 <body>
@@ -40,7 +40,7 @@
                     <h2>Content for Topic 1</h2>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. A dolore quibusdam reprehenderit ducimus officia delectus et dolor praesentium assumenda blanditiis culpa, accusantium harum ea omnis laudantium nam. Cum, accusamus quaerat accusantium officiis ipsam, consectetur voluptatum libero labore itaque et illo sequi? Placeat enim pariatur excepturi sunt similique expedita hic commodi labore, culpa, laboriosam illum molestiae aspernatur reiciendis fugit nulla minima. Omnis in rem aperiam dignissimos magni maxime, atque blanditiis esse autem temporibus sequi alias possimus! Qui reprehenderit consequatur tenetur quo labore, corporis eius nesciunt blanditiis! Enim iure eos doloremque cumque dolore, nihil ipsum provident obcaecati. Quibusdam eveniet sequi tenetur neque!</p>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur quos doloremque ducimus cum placeat neque odit soluta necessitatibus! Labore rerum laborum atque sapiente nostrum, sunt eum nemo perspiciatis aspernatur dolor cupiditate esse. Velit nulla eaque earum quam. Accusamus optio doloremque totam labore consequuntur officia sit ducimus beatae, maiores, eos nesciunt tempore necessitatibus ipsam omnis at iste numquam qui aperiam dolore? Delectus eligendi eveniet doloremque at cum repudiandae nam quo minima sunt rerum rem, maxime ab totam deserunt esse voluptas, ipsa sequi aperiam, voluptatem similique aut. Molestiae asperiores repellendus impedit, quis itaque incidunt ex ratione modi magnam quas laudantium necessitatibus possimus voluptatibus architecto, dolore eum voluptates neque at? Qui suscipit corporis quod voluptatum non assumenda ullam distinctio inventore deleniti quaerat excepturi tempora dolore reprehenderit, corrupti maxime. Harum totam ea ad quisquam architecto iste natus! Laborum ex quisquam quibusdam dolorum fuga, inventore ipsum reprehenderit iusto ullam assumenda fugiat amet quos eligendi aut. Aut expedita soluta optio eveniet laborum nesciunt debitis incidunt aliquam voluptatibus omnis vero iste accusantium sapiente nam numquam fuga ratione a fugiat error atque, hic at corrupti. Ad veritatis libero, laudantium, nihil doloribus autem eaque quas deleniti vitae totam minus sed numquam dolore asperiores ducimus necessitatibus itaque id eveniet placeat?</p>
-                    <div class="course-quiz"><button onclick="quiz1()">Take the Quiz</button></div>
+                    <div class="course-quiz"><button id="btn_quiz1" onclick="quiz1()">Take the Quiz</button></div>
                 </div>
                 <div class="content" id="content2">
                     <h2>Content for Topic 2</h2>
@@ -58,53 +58,39 @@
                     <p>This is the content related to Topic 3.</p>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. A dolore quibusdam reprehenderit ducimus officia delectus et dolor praesentium assumenda blanditiis culpa, accusantium harum ea omnis laudantium nam. Cum, accusamus quaerat accusantium officiis ipsam, consectetur voluptatum libero labore itaque et illo sequi? Placeat enim pariatur excepturi sunt similique expedita hic commodi labore, culpa, laboriosam illum molestiae aspernatur reiciendis fugit nulla minima. Omnis in rem aperiam dignissimos magni maxime, atque blanditiis esse autem temporibus sequi alias possimus! Qui reprehenderit consequatur tenetur quo labore, corporis eius nesciunt blanditiis! Enim iure eos doloremque cumque dolore, nihil ipsum provident obcaecati. Quibusdam eveniet sequi tenetur neque!</p>
                 </div>
-                <!-- Quiz form -->
-                <div class="quiz-form" id="quizForm">
+                <!-- QUIZZES -->
+                <div class="overlay" onclick="hideQuizPopup()"></div>
+                <div class="quiz-popup">
                     <form action="quiz_handler.php" method="post">
                         <label for="question1">Question 1: What is 2 + 2?</label>
                         <input type="text" id="question1" name="question1" required>
-                        
-                        <!-- Add more questions as needed -->
+                        <label for="question1">Question 1: What is 2 + 2?</label>
+                        <input type="text" id="question1" name="question1" required>
+
+                        <label for="choices">Choose one or more options:</label>
+                        <input type="button" name="question3" id="">
+                            <select id="choices" name="choices" multiple>
+                                <option value="a">Option A</option>
+                                <option value="b">Option B</option>
+                                <option value="c">Option C</option>
+                            </select>
+                        <!-- MORE QUESTION  -->
 
                         <!-- Input for the score -->
                         <input type="hidden" id="score" name="score" value="0">
 
                         <!-- Submit button -->
-                        <button type="button" onclick="checkScores()">Submit</button>
+                        <button type="button" onclick="checkScores(); hideQuizPopup()">Submit</button>
                     </form>
                 </div>
             </div>
         </div>
     </div>
-    
-    
-
     <script>
-        // Function to show the quiz form
-        function showQuiz(contentId, buttonId) {
-            // Your existing logic to show content goes here
-
-            // Hide the quiz form initially
-            var quizForm = document.getElementById('quizForm');
-            quizForm.style.display = 'none';
-
-            // Show the quiz form when the button is clicked
-            quizForm.style.display = 'block';
-
-            // Your existing logic to highlight the active button goes here
-        }
-
-        // Your existing functions for quiz1(), quiz2(), etc.
-
-        // Function to check scores (you can implement this based on your needs)
-        function checkScores() {
-            // Your logic to calculate and handle quiz scores goes here
-            // Update the score input value before submitting the form
-            document.getElementById('score').value = calculatedScore;
-
-            // Submit the form
-            document.querySelector('form').submit();
-        }
+        // Event listener for the "Take the Quiz" button
+        document.getElementById('btn_quiz1').addEventListener('click', function() {
+            showQuizPopup();
+        });
     </script>
 
 </body>
