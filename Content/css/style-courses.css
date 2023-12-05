@@ -2,10 +2,10 @@
 body{
     padding: 0;
     margin: 0;
-    height: auto;
-    width: auto;
     color: rgb(0, 0, 0);
     font-family: Arial, sans-serif;
+}
+.background{
     background: linear-gradient(to right, #6875eb, #e98fe9, #eeaa82);
 }
 

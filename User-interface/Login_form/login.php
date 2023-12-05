@@ -10,14 +10,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="/IT-ELECT-FINALPROJ-MAIN/User-interface/css/Style.css">
+  <link rel="stylesheet" href="../css/Style.css">
   <title>EDUCATIVO Login</title>
 </head>
 <body>
   <div class="whole-container">
   <div class="left-container">
     <h1>EDUCATIVO</h1>
-      <img src="/IT-ELECT-FINALPROJ-MAIN/image/educ_page-removebg-preview.png" alt="">
+    <img src="../../image/educ_page-removebg-preview.png">
   </div>
   <div class="right-container">
     
@@ -31,7 +31,7 @@
     </div>
     <label><input type="checkbox">Remember Me</label>
     <input type="submit" class="button" id="login" value="LOGIN" name="login">
-    <p id="signup-message">Doesn't have an account yet?<a href="/IT-ELECT-FINALPROJ-main/User-interface/Registration_form/registration.php" id="signup-link">Sign up</a></p>
+    <p id="signup-message">Doesn't have an account yet?<a href="../User-interface/Registration_form/registration.php" id="signup-link">Sign up</a></p>
   </form>
   </div>
   </div>
@@ -43,7 +43,7 @@
 
     // Function to redirect to another page after the specified delay
     function redirectToSignup() {
-      window.location.href = "/IT-ELECT-FINALPROJ-main/User-interface/Registration_form/registration.php";
+      window.location.href = "../Registration_form/registration.php";
     }
 
     // Add a click event listener to the signup link

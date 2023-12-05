@@ -6,7 +6,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="/IT-ELECT-FINALPROJ-MAIN/User-interface/css/Design.css">
+  <link rel="stylesheet" href="../css/Design.css">
   <title>EDUCATIVO Sign-up</title>
 </head>
 <body>
@@ -52,7 +52,7 @@
                      <label><input type="checkbox">I've read and agree with <a href="">Terms of Service</a> and our <a href="">Privacy Policy</a></label>
                   </div>
                   <input type="submit" class="button" id="register" value="Sign Up" name="submit">
-                  <p id="signin-message">Already have an account?<a href="/IT-ELECT-FINALPROJ-main/User-interface/Login_form/login.php"  id="signin-link">Login </a></p>
+                  <p id="signin-message">Already have an account?<a href="../Login_form/login.php"  id="signin-link">Login </a></p>
                   </form>
                   <script>
                             document.addEventListener("DOMContentLoaded", function() {
@@ -61,7 +61,7 @@
 
                               // Function to redirect to another page after the specified delay
                               function redirectToSignin() {
-                                window.location.href = "/IT-ELECT-FINALPROJ-main/User-interface/Login_form/login.php";
+                                window.location.href = "../Login_form/login.php";
                               }
 
                               // Add a click event listener to the signup link

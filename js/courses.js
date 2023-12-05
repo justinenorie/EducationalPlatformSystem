@@ -34,27 +34,27 @@ document.addEventListener("DOMContentLoaded", function() {
 //LINKING PAGES TOGETHER
 //Mathematics
 function mathematics() {
-    window.location.href = '/IT-ELECT-FINALPROJ-main/Content/math.php';
+    window.location.href = '../Content/math.php';
 }
 
 //English
 function english() {
-    window.location.href = '/IT-ELECT-FINALPROJ-main/Content/english.php';
+    window.location.href = '../Content/english.php';
 }
 
 //Science
 function science() {
-    window.location.href = '/IT-ELECT-FINALPROJ-main/Content/science.php';
+    window.location.href = '../Content/science.php';
 }
 
 //DELAY IN COURSE PANEL
 document.addEventListener("DOMContentLoaded", function() {
     var delayInMilliseconds = 1000;
     function redirect_to_mainpage() {
-    window.location.href = "/IT-ELECT-FINALPROJ-main/User-interface/Login_form/index.php";
+    window.location.href = "../User-interface/Login_form/index.php";
     }
     function redirect_aboutus() {
-    window.location.href = "/IT-ELECT-FINALPROJ-main/User-interface/Login_form/index.php #aboutus";
+    window.location.href = "../User-interface/Login_form/index.php #aboutus";
     }
 
     document.getElementById("home").addEventListener("click", function(event) {

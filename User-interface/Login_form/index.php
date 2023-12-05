@@ -16,8 +16,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="/IT-ELECT-FINALPROJ-MAIN/User-interface/css/outline.css">
+    <title>EDUCATIVO</title>
+    <link rel="stylesheet" href="../css/outline.css">
 </head>
 <body>
     <div class="banner">
@@ -43,7 +43,7 @@
           <button id="join-class">Join Class Now!</button>
     </div>
     <div class="right-container">
-          <img src="/IT-ELECT-FINALPROJ-MAIN/image/educ_page-removebg-preview.png" alt="">
+          <img src="../../image/educ_page-removebg-preview.png" alt="">
     </div>
     </div>
     <div class="bottom">
@@ -56,7 +56,7 @@
           
     </div>
     <div class="photo">
-        <img src="/IT-ELECT-FINALPROJ-MAIN/image/404970693_1006356280470012_1616781361438574168_n.png" alt="">
+        <img src="../../image/404970693_1006356280470012_1616781361438574168_n.png" alt="">
 
     </div>
   </div>
@@ -65,10 +65,10 @@
           <h1>CONTACT INFO</h1>
         </div>
         <div class="contact-logo">
-              <a href=""><img class="facebook" src="/IT-ELECT-FINALPROJ-MAIN/image/facebook.svg" alt=""></a>
-              <a href="#"><img class="google" src="/IT-ELECT-FINALPROJ-MAIN/image/google.svg" alt=""></a>
-              <a href="#"><img class="instagram" src="/IT-ELECT-FINALPROJ-MAIN/image/instagram.svg" alt=""></a>
-              <a href="#"><img class="github" src="/IT-ELECT-FINALPROJ-MAIN/image/square-github.svg" alt=""></a>
+              <a href=""><img class="facebook" src="../../image/facebook.svg" alt=""></a>
+              <a href="#"><img class="google" src="../../image/google.svg" alt=""></a>
+              <a href="#"><img class="instagram" src="../../image/instagram.svg" alt=""></a>
+              <a href="#"><img class="github" src="../../image/square-github.svg" alt=""></a>
         </div>
             
   </div>
@@ -79,10 +79,10 @@
                 document.addEventListener("DOMContentLoaded", function() {
                   var delayInMilliseconds = 1000;
                   function redirect_to_Courses() {
-                    window.location.href = "/IT-ELECT-FINALPROJ-main/Content/courses-panel.php";
+                    window.location.href = "../../Content/courses-panel.php";
                   }
                   function redirect_Courses_banner() {
-                    window.location.href = "/IT-ELECT-FINALPROJ-main/Content/courses-panel.php";
+                    window.location.href = "../../Content/courses-panel.php";
                   }
 
                   document.getElementById("join-class").addEventListener("click", function(event) {
@@ -95,10 +95,7 @@
                     setTimeout(redirect_Courses_banner, delayInMilliseconds);
                   });
 
-                });
-
-        
+                });   
 </script>
-
 </body>
 </html>
