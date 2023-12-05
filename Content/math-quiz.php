@@ -33,15 +33,15 @@
                     <div>
                         <label for="question2">Question 2: Choose one option</label>
                             <div>
-                                <input type="radio" id="optionA" name="question1" value="a">
+                                <input type="radio" id="optionA" name="question2" value="a">
                                 <label for="optionA">Option A</label>
                             </div>
                             <div>
-                                <input type="radio" id="optionB" name="question1" value="b">
+                                <input type="radio" id="optionB" name="question2" value="b">
                                 <label for="optionB">Option B</label>
                             </div>
                             <div>
-                                <input type="radio" id="optionC" name="question1" value="c">
+                                <input type="radio" id="optionC" name="question2" value="c">
                                 <label for="optionC">Option C</label>
                             </div>
                     </div>
@@ -50,15 +50,15 @@
                     <div>
                         <label for="question3">Question 3: Choose one option</label>
                             <div>
-                                <input type="radio" id="optionA" name="question1" value="a">
+                                <input type="radio" id="optionA" name="question3" value="a">
                                 <label for="optionA">Option A</label>
                             </div>
                             <div>
-                                <input type="radio" id="optionB" name="question1" value="b">
+                                <input type="radio" id="optionB" name="question3" value="b">
                                 <label for="optionB">Option B</label>
                             </div>
                             <div>
-                                <input type="radio" id="optionC" name="question1" value="c">
+                                <input type="radio" id="optionC" name="question3" value="c">
                                 <label for="optionC">Option C</label>
                             </div>
                     </div>
