@@ -14,15 +14,16 @@ body{
     height: auto;
     transition: background-color 1s, color 1s;
 }  
-  .light-mode {
+.light-mode {
     background-color: white;
     color: black;
   }
-  
-  .dark-mode {
+.dark-mode {
     background-color: black;
     color: white;
   }
+  
+ 
   
 
 .banner {
