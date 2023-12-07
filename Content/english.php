@@ -25,8 +25,7 @@
             </div>
         </div>
         <div class="theme-mode">
-            <button id="lightModeBtn" onclick="toggleMode('light')">Light Mode</button>
-            <button id="darkModeBtn" onclick="toggleMode('dark')">Dark Mode</button>
+            <button onclick="toggleMode()">Toggle Mode</button>
         </div>
         <div class="contain">
             <div class="title-course"><h1>ENGLISH</h1></div>  

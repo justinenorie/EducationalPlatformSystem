@@ -24,7 +24,9 @@
                 <a href="../User-interface/Login_form/index.php?logout=true"><button>Logout</button></a>
             </div>
         </div>
-
+        <div class="theme-mode">
+            <button onclick="toggleMode()">Toggle Mode</button>
+        </div>
         <div class="contain">
             <div class="title-course"><h1>MATHEMATICS</h1></div>  
         
