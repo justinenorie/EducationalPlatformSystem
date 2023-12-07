@@ -8,7 +8,7 @@ body{
   display: flex;
 }
 .left-container{
-  height: 870px;
+  height: auto;
   width: 50%;
   background: linear-gradient(to right, #6875eb, #e98fe9, #eeaa82);
   display: flex;
@@ -28,6 +28,7 @@ body{
   width: 70%;
   height: 60%;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.226);
+  border: none;
 }
 .right-container{
   display: flex;

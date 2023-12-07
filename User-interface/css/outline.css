@@ -238,6 +238,45 @@ nav .banner-selection a:hover::after{
   margin-top: 120px;
   margin: 145px 50px; 
 }
+.facebook{
+  height: 100px;
+  width: 100px;
+  transition: .5s;
+}
+.facebook:hover{
+  height: 120px;
+  width: 120px;
+}
+.google{
+  height: 100px;
+  width: 100px;
+  transition: .5s;
+}
+.google:hover{
+  height: 120px;
+  width: 120px;
+}
+.instagram{
+  height: 100px;
+  width: 100px;
+  transition: .5s;
+}
+.instagram:hover{
+  height: 120px;
+  width: 120px;
+}
+.github{
+  height: 100px;
+  width: 100px;
+  transition: .5s;
+}
+.github:hover{
+  height: 120px;
+  width: 120px;
+}
+
+
+
 .copyright-container p{
     color: rgb(0, 0, 0);
     text-align: center;

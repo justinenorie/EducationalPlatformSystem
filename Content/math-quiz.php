@@ -6,7 +6,7 @@
     <title>MATH QUIZ</title>
     <script src="../js/courses.js"></script>
     <link rel="stylesheet" href="../Content/css/style-courses.css">
-    <link rel="rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
 </head>
 <body>
     <!-- QUIZZES -->
@@ -105,5 +105,46 @@
             </div>
         </form>
         </div>
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script>
+                    document.addEventListener('DOMContentLoaded', function () {
+                        document.querySelector('form').addEventListener('submit', function (event) {
+  
+                            event.preventDefault();
+
+                            checkAnswers();
+                        });
+                    });
+
+                    function checkAnswers() {
+                        var correctAnswers = ['b', 'c', 'a', 'b', 'c'];
+                        var score = 0;
+
+                        for (var i = 1; i <= 5; i++) {
+                            var selectedOption = document.querySelector('input[name="question' + i + '"]:checked');
+
+                            if (selectedOption) {
+                                if (selectedOption.value === correctAnswers[i - 1]) {
+                                    score++;
+                                }
+                            }
+                        }
+
+                        if (score >= 3) {
+                Swal.fire({
+                    title: 'Congratulations!',
+                    text: 'You have passed with a score of ' + score + '/5.',
+                    icon: 'success'
+                });
+            } else {
+                Swal.fire({
+                    title: 'Sorry!',
+                    text: 'You did not pass. Your score is ' + score + '/5. Please try again.',
+                    icon: 'error'
+                });
+            }
+                    }
+</script>
 </body>
 </html>
