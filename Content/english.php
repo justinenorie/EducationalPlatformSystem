@@ -79,7 +79,7 @@
         document.addEventListener("DOMContentLoaded", function() {
             var delayInMilliseconds = 1000;
             function redirect_to_quiz_math() {
-            window.location.href = "../Content/math-quiz.php";
+            window.location.href = "../Content/english-quiz.php";
             }
             document.getElementById("btn_quiz1").addEventListener("click", function(event) {
             event.preventDefault();
