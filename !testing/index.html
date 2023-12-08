@@ -1,19 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <title>Your Webpage</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hovering Text Example</title>
+    <style>
+        /* Your button styles */
+        .hover-btn {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
 </head>
 <body>
-  <div class="content">
-    <h1>Hello, World!</h1>
-    <p>This is some text on your webpage.</p>
-    <button id="lightModeBtn" onclick="toggleMode('light')">Light Mode</button>
-    <button id="darkModeBtn" onclick="toggleMode('dark')">Dark Mode</button>
-  </div>
+    <!-- Example using the title attribute -->
+    <button class="hover-btn" title="This is the hovering text">Hover me</button>
 
-  <script src="script.js"></script>
+    <script>
+        // You can also dynamically set the title using JavaScript if needed
+        document.querySelector('.hover-btn').title = 'Dynamic hovering text';
+    </script>
 </body>
 </html>

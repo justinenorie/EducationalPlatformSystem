@@ -24,12 +24,13 @@
                 <a href="../User-interface/Login_form/index.php?logout=true"><button>Logout</button></a>
             </div>
         </div>
-        <div class="theme-mode">
-            <button onclick="toggleMode()">Toggle Mode</button>
-        </div>
-        <div class="contain">
-            <div class="title-course"><h1>ENGLISH</h1></div>  
         
+        <div class="contain">
+            <div class="theme-mode">
+                <button class="hover-btn" id="modeToggleBtn" onclick="toggleMode()">Background Theme</button>
+            </div>
+            <div class="title-course"><h1>ENGLISH</h1>
+            </div>  
             <div class="course-container">
                 <div class="topics">
                     <button class="topic" onclick="showContent('content1', 'button1')" id="button1">21st Century</button>
@@ -85,6 +86,7 @@
             setTimeout(redirect_to_quiz_math, delayInMilliseconds);
             });
         });
+        document.querySelector('.hover-btn').title = 'Toggle Dark Mode';
     </script>
 </body>
 </html>

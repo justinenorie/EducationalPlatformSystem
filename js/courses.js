@@ -34,17 +34,21 @@ document.addEventListener("DOMContentLoaded", function() {
 //LINKING PAGES TOGETHER
 //Mathematics
 function mathematics() {
-    window.location.href = '../Content/math.php';
+    setTimeout(function() {
+        window.location.href = '../Content/math.php';
+    }, 1000); // 1000 milliseconds = 1 second
 }
-
 //English
 function english() {
-    window.location.href = '../Content/english.php';
+    setTimeout(function() {
+        window.location.href = '../Content/english.php';
+    }, 1000); 
 }
-
 //Science
 function science() {
-    window.location.href = '../Content/science.php';
+    setTimeout(function() {
+        window.location.href = '../Content/science.php';
+    }, 1000);
 }
 
 //DELAY IN COURSE PANEL
@@ -71,7 +75,22 @@ document.addEventListener("DOMContentLoaded", function() {
 //LIGHTMODE AND DARKMODE
 function toggleMode() {
     const body = document.body;
+    const button = document.getElementById('modeToggleBtn'); // Assuming your button has an ID
+
     body.classList.toggle('light-mode');
     body.classList.toggle('dark-mode');
-  }  
+
+    // Update button text based on the current mode
+    if (body.classList.contains('dark-mode')) {
+        button.textContent = 'Light Mode';
+        document.querySelector('.hover-btn').title = 'Toggle Light Mode';
+    } else {
+        button.textContent = 'Dark Mode';
+        document.querySelector('.hover-btn').title = 'Toggle Dark Mode';
+    }
+    button.style.backgroundColor = (button.style.backgroundColor === 'white') ? 'black' : 'white';
+    button.style.color = (button.style.color === 'black') ? 'white' : 'black';
+}
+
+  
 
