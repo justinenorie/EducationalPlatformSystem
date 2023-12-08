@@ -100,7 +100,7 @@
 
                 <!-- Submit button -->
                 <div class="submit-btn">
-                    <button type="button" onclick="checkScores()">Submit</button>
+                    <button type="button" onclick="checkAnswers()">Submit</button>
                 </div>
             </div>
         </form>
