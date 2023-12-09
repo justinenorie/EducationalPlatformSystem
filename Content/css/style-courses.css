@@ -199,6 +199,9 @@ nav .banner-selection a:hover::after{
     justify-content: space-around;
     overflow: hidden;
 }
+.contents-container h2{
+    text-align: center;
+}
 .content {
     width: auto;
     box-sizing: border-box;
@@ -231,6 +234,9 @@ nav .banner-selection a:hover::after{
     line-height: 28px;
     font-weight: 550;
 }
+.included-content{
+    border-radius: 20px;
+}
 .img-style{
     display: flex;
     justify-content: center;
@@ -242,6 +248,7 @@ nav .banner-selection a:hover::after{
 }
 
 .course-quiz{
+    padding-top: 20px;
     display: flex;
     justify-content: center;
     width: auto;

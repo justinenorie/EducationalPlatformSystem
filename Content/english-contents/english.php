@@ -34,8 +34,8 @@
             <div class="course-container">
                 <div class="topics">
                     <button class="topic" onclick="showContent('content1', 'button1')" id="button1">21st Century</button>
-                    <button class="topic" onclick="showContent('content2', 'button2')" id="button2">Topic 2</button>
-                    <button class="topic" onclick="showContent('content3', 'button3')" id="button3">Topic 3</button>
+                    <button class="topic" onclick="showContent('content2', 'button2')" id="button2">EAPP</button>
+                    <button class="topic" onclick="showContent('content3', 'button3')" id="button3">Oral Communication</button>
                     <button class="topic" onclick="showContent('content4', 'button4')" id="button4">CERTIFICATE</button>
                 </div>
 
@@ -324,22 +324,22 @@
                         <div class="course-quiz"><button id="btn_quiz1" onclick="quiz1()">Take the Quiz</button></div>
                     </div>
                     <div class="content" id="content2">
-                        <h2>Content for Topic 2</h2>
+                        <h2>English for Academic Purposes Program (EAPP)</h2>
                         <div class="included-content">
-                        <embed src="../english-contents/eapp-1_merged.pdf" type="application/pdf" width="100%" height=1000px/>
+                        <embed src="../english-contents/1eapp-topic1.pdf" type="application/pdf" width="100%" height=1000px/>
                         </div>
                         <div class="course-quiz"><button onclick="quiz2()">Take the Quiz</button></div>
                     </div>
                     <div class="content" id="content3">
-                        <h2>Content for Topic 3</h2>
-                        <p>This is the content related to Topic 3.</p>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur quos doloremque ducimus cum placeat neque odit soluta necessitatibus! Labore rerum laborum atque sapiente nostrum, sunt eum nemo perspiciatis aspernatur dolor cupiditate esse. Velit nulla eaque earum quam. Accusamus optio doloremque totam labore consequuntur officia sit ducimus beatae, maiores, eos nesciunt tempore necessitatibus ipsam omnis at iste numquam qui aperiam dolore? Delectus eligendi eveniet doloremque at cum repudiandae nam quo minima sunt rerum rem, maxime ab totam deserunt esse voluptas, ipsa sequi aperiam, voluptatem similique aut. Molestiae asperiores repellendus impedit, quis itaque incidunt ex ratione modi magnam quas laudantium necessitatibus possimus voluptatibus architecto, dolore eum voluptates neque at? Qui suscipit corporis quod voluptatum non assumenda ullam distinctio inventore deleniti quaerat excepturi tempora dolore reprehenderit, corrupti maxime. Harum totam ea ad quisquam architecto iste natus! Laborum ex quisquam quibusdam dolorum fuga, inventore ipsum reprehenderit iusto ullam assumenda fugiat amet quos eligendi aut. Aut expedita soluta optio eveniet laborum nesciunt debitis incidunt aliquam voluptatibus omnis vero iste accusantium sapiente nam numquam fuga ratione a fugiat error atque, hic at corrupti. Ad veritatis libero, laudantium, nihil doloribus autem eaque quas deleniti vitae totam minus sed numquam dolore asperiores ducimus necessitatibus itaque id eveniet placeat?</p>
+                        <h2>Oral Communication</h2>
+                        <div class="included-content">
+                        <embed src="../english-contents/2oral-com-topic2.pdf" type="application/pdf" width="100%" height=1000px/>
+                        </div>
                         <div class="course-quiz"><button onclick="quiz3()">Take the Quiz</button></div>
                     </div>
                     <div class="content" id="content4">
                         <h2>CERTIFCATE</h2>
                         <p>This is the content related to Topic 3.</p>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. A dolore quibusdam reprehenderit ducimus officia delectus et dolor praesentium assumenda blanditiis culpa, accusantium harum ea omnis laudantium nam. Cum, accusamus quaerat accusantium officiis ipsam, consectetur voluptatum libero labore itaque et illo sequi? Placeat enim pariatur excepturi sunt similique expedita hic commodi labore, culpa, laboriosam illum molestiae aspernatur reiciendis fugit nulla minima. Omnis in rem aperiam dignissimos magni maxime, atque blanditiis esse autem temporibus sequi alias possimus! Qui reprehenderit consequatur tenetur quo labore, corporis eius nesciunt blanditiis! Enim iure eos doloremque cumque dolore, nihil ipsum provident obcaecati. Quibusdam eveniet sequi tenetur neque!</p>
                     </div>
                 </div>
             </div>
