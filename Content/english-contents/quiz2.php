@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MATH QUIZ</title>
-    <script src="../js/courses.js"></script>
-    <link rel="stylesheet" href="../Content/css/style-courses.css">
+    <script src="../../js/courses.js"></script>
+    <link rel="stylesheet" href="../../Content/css/style-courses.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
 </head>
 <body>

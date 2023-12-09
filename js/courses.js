@@ -35,19 +35,19 @@ document.addEventListener("DOMContentLoaded", function() {
 //Mathematics
 function mathematics() {
     setTimeout(function() {
-        window.location.href = '../Content/math.php';
+        window.location.href = '../Content/math-contents/math.php';
     }, 1000); // 1000 milliseconds = 1 second
 }
 //English
 function english() {
     setTimeout(function() {
-        window.location.href = '../Content/english.php';
+        window.location.href = '../Content/english-contents/english.php';
     }, 1000); 
 }
 //Science
 function science() {
     setTimeout(function() {
-        window.location.href = '../Content/science.php';
+        window.location.href = '../Content/science-contents/science.php';
     }, 1000);
 }
 

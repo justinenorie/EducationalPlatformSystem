@@ -192,7 +192,7 @@ nav .banner-selection a:hover::after{
 
 .contents-container{
     height: auto;
-    width: auto;
+    width: 100%;
     padding: 50px;
     margin-top: -45px;
     display: flex;
@@ -231,7 +231,15 @@ nav .banner-selection a:hover::after{
     line-height: 28px;
     font-weight: 550;
 }
-
+.img-style{
+    display: flex;
+    justify-content: center;
+}
+.img-style img{
+    padding: 10px;
+    width: 80%;
+    height: 80%;
+}
 
 .course-quiz{
     display: flex;

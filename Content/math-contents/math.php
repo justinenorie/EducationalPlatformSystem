@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ENGLISH</title>
-    <link rel="stylesheet" href="../Content/css/style-courses.css">
-    <script src="../js/courses.js"></script>
+    <title>MATHEMATICS</title>
+    <link rel="stylesheet" href="../../Content/css/style-courses.css">
+    <script src="../../js/courses.js"></script>
 </head>
 <body>
     <div class="background">
@@ -15,13 +15,13 @@
             </div>
             <nav>
                 <div class="banner-selection">
-                    <a href="../User-interface/Login_form/index.php">Home</a>
-                    <a href="../Content/courses-panel.php">Courses</a>
-                    <a href="../User-interface/Login_form/index.php #aboutus">About Us</a>
+                    <a href="../../User-interface/Login_form/index.php">Home</a>
+                    <a href="../../Content/courses-panel.php">Courses</a>
+                    <a href="../../User-interface/Login_form/index.php #aboutus">About Us</a>
                 </div>
             </nav>
             <div class="users">
-                <a href="../User-interface/Login_form/index.php?logout=true"><button>Logout</button></a>
+                <a href="../../User-interface/Login_form/index.php?logout=true"><button>Logout</button></a>
             </div>
         </div>
         
@@ -29,7 +29,7 @@
             <div class="theme-mode">
                 <button class="hover-btn" id="modeToggleBtn" onclick="toggleMode()">Background Theme</button>
             </div>
-            <div class="title-course"><h1>ENGLISH</h1>
+            <div class="title-course"><h1>MATHEMATICS</h1>
             </div>  
             <div class="course-container">
                 <div class="topics">
@@ -79,7 +79,7 @@
         document.addEventListener("DOMContentLoaded", function() {
             var delayInMilliseconds = 1000;
             function redirect_to_quiz_math() {
-            window.location.href = "../Content/english-quiz.php";
+            window.location.href = "../../Content/math-contents/math-quiz.php";
             }
             document.getElementById("btn_quiz1").addEventListener("click", function(event) {
             event.preventDefault();

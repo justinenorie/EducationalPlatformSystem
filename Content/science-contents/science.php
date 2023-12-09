@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SCIENCE</title>
-    <link rel="stylesheet" href="../Content/css/style-courses.css">
-    <script src="../js/courses.js"></script>
+    <link rel="stylesheet" href="../../Content/css/style-courses.css">
+    <script src="../../js/courses.js"></script>
 </head>
 <body>
     <div class="background">
@@ -15,13 +15,13 @@
             </div>
             <nav>
                 <div class="banner-selection">
-                    <a href="../User-interface/Login_form/index.php">Home</a>
-                    <a href="../Content/courses-panel.php">Courses</a>
-                    <a href="../User-interface/Login_form/index.php #aboutus">About Us</a>
+                    <a href="../../User-interface/Login_form/index.php">Home</a>
+                    <a href="../../Content/courses-panel.php">Courses</a>
+                    <a href="../../User-interface/Login_form/index.php #aboutus">About Us</a>
                 </div>
             </nav>
             <div class="users">
-                <a href="../User-interface/Login_form/index.php?logout=true"><button>Logout</button></a>
+                <a href="../../User-interface/Login_form/index.php?logout=true"><button>Logout</button></a>
             </div>
         </div>
         
@@ -79,7 +79,7 @@
         document.addEventListener("DOMContentLoaded", function() {
             var delayInMilliseconds = 1000;
             function redirect_to_quiz_math() {
-            window.location.href = "../Content/science-quiz.php";
+            window.location.href = "../../Content/science-content/science-quiz.php";
             }
             document.getElementById("btn_quiz1").addEventListener("click", function(event) {
             event.preventDefault();
