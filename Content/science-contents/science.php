@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -77,18 +80,70 @@
             </div>
         </div>
     </div>  
-    <script>
-        document.addEventListener("DOMContentLoaded", function() {
-            var delayInMilliseconds = 1000;
-            function redirect_to_quiz_math() {
-            window.location.href = "../../Content/math-contents/math-quiz.php";
-            }
-            document.getElementById("btn_quiz1").addEventListener("click", function(event) {
-            event.preventDefault();
-            setTimeout(redirect_to_quiz_math, delayInMilliseconds);
-            });
-        });
-        document.querySelector('.hover-btn').title = 'Toggle Dark Mode';
-    </script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+<!-- JavaScript script -->
+<script>
+   document.addEventListener('DOMContentLoaded', function () {
+    // Initially disable all buttons except the first one
+    document.getElementById("button2").disabled = true;
+    document.getElementById("button3").disabled = true;
+    document.getElementById("button4").disabled = true;
+    document.getElementById("button5").disabled = true;
+
+    // Assuming you have a session variable to check quiz1 completion
+    var quiz1Completed = <?php echo isset($_SESSION['sci_quiz1_completed']) ? 'true' : 'false'; ?>;
+    console.log('Quiz 1 Completed:', quiz1Completed);
+
+    if (quiz1Completed) {
+        // Enable the button corresponding to the unlocked topic
+        document.getElementById("button2").disabled = false;
+    }
+
+    // Assuming you have a session variable to check quiz2 completion
+    var quiz2Completed = <?php echo isset($_SESSION['sci_quiz2_completed']) ? 'true' : 'false'; ?>;
+    console.log('Quiz 2 Completed:', quiz2Completed);
+
+    if (quiz2Completed) {
+        // Enable the button corresponding to the unlocked topic
+        document.getElementById("button3").disabled = false;
+    }
+
+    // Assuming you have a session variable to check quiz3 completion
+    var quiz3Completed = <?php echo isset($_SESSION['sci_quiz3_completed']) ? 'true' : 'false'; ?>;
+    console.log('Quiz 3 Completed:', quiz3Completed);
+
+    if (quiz3Completed) {
+        // Enable the button corresponding to the unlocked topic
+        document.getElementById("button4").disabled = false;
+    }
+    // Assuming you have a session variable to check quiz3 completion
+    var quiz4Completed = <?php echo isset($_SESSION['sci_quiz4_completed']) ? 'true' : 'false'; ?>;
+    console.log('Quiz 4 Completed:', quiz4Completed);
+
+    if (quiz4Completed) {
+        // Enable the button corresponding to the unlocked topic
+        document.getElementById("button5").disabled = false;
+    }
+});
+
+    function quiz1() {
+        // Redirect to Quiz 1 if the condition is met
+        window.location.href = 'quiz1.php';
+    }
+
+    // Add similar functions for quiz2() and quiz3() if needed
+    function quiz2() {
+        window.location.href = 'quiz2.php'; // Replace with the actual URL
+    }
+
+    function quiz3() {
+        window.location.href = 'quiz3.php'; // Replace with the actual URL
+    }
+    function quiz3() {
+        window.location.href = 'quiz4.php'; // Replace with the actual URL
+    }
+</script>
+
+
 </body>
 </html>
