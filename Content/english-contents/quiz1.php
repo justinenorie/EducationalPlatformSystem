@@ -21,25 +21,25 @@ if (!isset($_SESSION['eng_quiz1_completed'])) { //changes
         
             <form id="quiz-form" method="post">
                 <div class="options-container" id="question-container">
-                    <h1>General Mathematics - 1 Quiz</h1>
+                    <h1>English for Academic Purposes Program (EAPP) Quiz</h1>
                     <p>Let's Test Your Knowledge to Unlock the Next Topic.</p>
                     <div class="question" data-number="1" style="display: block;">
-                        <h2>Question 1: Choose one option</h2>
+                        <h2>This refers to the attitude conveyed in a piece of writing</h2>
                         <div>
                             <input type="radio" id="q1OptionA" name="question1" value="a">
-                            <label for="q1OptionA">Option A</label>
+                            <label for="q1OptionA">Language</label>
                         </div>
                         <div>
                             <input type="radio" id="q1OptionB" name="question1" value="b">
-                            <label for="q1OptionB">Option B</label>
+                            <label for="q1OptionB">Tone</label>
                         </div>
                         <div>
                             <input type="radio" id="q1OptionC" name="question1" value="c">
-                            <label for="q1OptionC">Option C</label>
+                            <label for="q1OptionC">Structure</label>
                         </div>
                         <div>
                             <input type="radio" id="q1OptionD" name="question1" value="d">
-                            <label for="q1OptionD">Option D</label>
+                            <label for="q1OptionD">Complexity</label>
                         </div>
                         <div class="next-btn">
                             <button type="button" onclick="showNextQuestion()">Next</button>
@@ -47,22 +47,22 @@ if (!isset($_SESSION['eng_quiz1_completed'])) { //changes
                     </div>
 
                     <div class="question" data-number="2" style="display: none;">
-                        <h2>Question 2: Choose one option</h2>
+                        <h2>An academic text addresses complex issues that require higher-order thinking skills to comprehend.</h2>
                         <div>
                             <input type="radio" id="q2OptionA" name="question2" value="a">
-                            <label for="q2OptionA">Option A</label>
+                            <label for="q2OptionA">Language</label>
                         </div>
                         <div>
                             <input type="radio" id="q2OptionB" name="question2" value="b">
-                            <label for="q2OptionB">Option B</label>
+                            <label for="q2OptionB">Tone</label>
                         </div>
                         <div>
                             <input type="radio" id="q2OptionC" name="question2" value="c">
-                            <label for="q2OptionC">Option C</label>
+                            <label for="q2OptionC">Structure</label>
                         </div>
                         <div>
                             <input type="radio" id="q2OptionD" name="question2" value="d">
-                            <label for="q2OptionD">Option D</label>
+                            <label for="q2OptionD">Complexity</label>
                         </div>
                         <div class="next-btn">
                             <button type="button" onclick="showNextQuestion()">Next</button>
@@ -70,22 +70,22 @@ if (!isset($_SESSION['eng_quiz1_completed'])) { //changes
                     </div>
 
                     <div class="question" data-number="3" style="display: none;">
-                        <h2>Question 3: Choose one option</h2>
+                        <h2>A written language that provides information, which contains ideas and concepts that are related to the particular discipline.</h2>
                         <div>
                             <input type="radio" id="q3OptionA" name="question3" value="a">
-                            <label for="q3OptionA">Option A</label>
+                            <label for="q3OptionA">Academic Text</label>
                         </div>
                         <div>
                             <input type="radio" id="q3OptionB" name="question3" value="b">
-                            <label for="q3OptionB">Option B</label>
+                            <label for="q3OptionB">Language</label>
                         </div>
                         <div>
                             <input type="radio" id="q3OptionC" name="question3" value="c">
-                            <label for="q3OptionC">Option C</label>
+                            <label for="q3OptionC">Citation</label>
                         </div>
                         <div>
                             <input type="radio" id="q3OptionD" name="question3" value="d">
-                            <label for="q3OptionD">Option D</label>
+                            <label for="q3OptionD">Tone</label>
                         </div>
                         <div class="next-btn">
                             <button type="button" onclick="showNextQuestion()">Next</button>
@@ -93,27 +93,28 @@ if (!isset($_SESSION['eng_quiz1_completed'])) { //changes
                     </div>
 
                     <div class="question" data-number="4" style="display: none;">
-                        <h2>Question 4: Choose one option</h2>
+                        <h2>The starting point of an academic text is a particular perspective, idea or position applied to the chosen research problem, such as establishing, proving, or disproving solutions to the questions posed for the topic.</h2>
                         <div>
                             <input type="radio" id="q4OptionA" name="question4" value="a">
-                            <label for="q4OptionA">Option A</label>
+                            <label for="q4OptionA">Thesis-driven</label>
                         </div>
                         <div>
                             <input type="radio" id="q4OptionB" name="question4" value="b">
-                            <label for="q4OptionB">Option B</label>
+                            <label for="q4OptionB">Evidence-based arguments</label>
                         </div>
                         <div>
                             <input type="radio" id="q4OptionC" name="question4" value="c">
-                            <label for="q4OptionC">Option C</label>
+                            <label for="q4OptionC">Complexity</label>
                         </div>
                         <div>
                             <input type="radio" id="q4OptionD" name="question4" value="d">
-                            <label for="q4OptionD">Option D</label>
+                            <label for="q4OptionD">Structure</label>
                         </div>
                         <div class="next-btn">
                             <button type="button" onclick="showNextQuestion()">Next</button>
                         </div>
                     </div>
+
 
                     <div class="question" data-number="5" style="display: none;">
                         <h2>Question 5: Choose one option</h2>

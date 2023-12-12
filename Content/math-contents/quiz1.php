@@ -11,7 +11,7 @@ if (!isset($_SESSION['quiz1_completed'])) { //changes
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MATH QUIZ</title>
+    <title>GENMATH1 QUIZ</title>
     <link rel="stylesheet" href="../../Content/css/style-courses.css">
     <script src="../../js/courses.js"></script>
 </head>
