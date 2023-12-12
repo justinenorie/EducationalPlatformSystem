@@ -414,8 +414,7 @@ if (!isset($_SESSION['eng_quiz2_completed'])) { //changes
                     text: 'You did not pass. Your score is ' + score + '/15. Please try again.',
                     icon: 'error'
                 }).then(() => {
-                    // Redirect to math.php after displaying the success message
-                    window.location.href = 'english.php';
+                    location.reload();
                 });
             }
         }

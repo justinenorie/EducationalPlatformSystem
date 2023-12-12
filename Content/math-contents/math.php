@@ -64,6 +64,8 @@ session_start();
                         <div class="included-content">
                         <embed src="../math-contents/3GeneralMathematics3.pdf" type="application/pdf" width="100%" height=1000px/>
                         </div>
+                        <h3>Do you want to unlock the next Topic?</h3>
+                        <h3>Take the Quiz Now!</h3>
                         <div class="course-quiz"><button onclick="quiz3()">Take the Quiz</button></div>
                     </div>
                     <div class="content" id="content4">

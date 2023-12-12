@@ -383,7 +383,7 @@ if (!isset($_SESSION['sci_quiz3_completed'])) { //changes
         });
 
         function checkAnswers() {
-            var correctAnswers = ['b', 'c', 'a', 'b', 'c','b', 'c', 'a', 'b', 'c','b', 'c' , 'a' , 'b', 'c']; //change this
+            var correctAnswers = ['b', 'c', 'a', 'b', 'c', 'b', 'c', 'a', 'b', 'c', 'b', 'c' , 'a' , 'b', 'c']; //change this
             var score = 0;
 
             for (var i = 1; i <= 15; i++) {
@@ -415,8 +415,7 @@ if (!isset($_SESSION['sci_quiz3_completed'])) { //changes
                     text: 'You did not pass. Your score is ' + score + '/15. Please try again.',
                     icon: 'error'
                 }).then(() => {
-                    // Redirect to math.php after displaying the success message
-                    window.location.href = 'science.php';
+                    location.reload();
                 });
             }
         }
