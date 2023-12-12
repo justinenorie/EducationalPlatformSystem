@@ -302,7 +302,7 @@ nav .banner-selection a:hover::after{
     border: 5px solid;
     border-radius: 20px;
     width: 80vh;
-    height: 60vh;
+    height: auto;
     padding: 30px;
     animation: fadeInDown 1s ease; /* Apply animation to the form */
 }
@@ -327,6 +327,7 @@ nav .banner-selection a:hover::after{
 .question input[type="radio"] {
     height: 20px;
     width: 20px;
+    position: absolute;
 }
 
 .question div {
@@ -334,6 +335,10 @@ nav .banner-selection a:hover::after{
     justify-content: flex-start;
     align-items: center;
     display: flex;
+}
+.question div label {
+    margin-left: 40px;
+    font-weight: 20px;
 }
 
 .next-btn {

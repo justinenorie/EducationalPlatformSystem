@@ -130,7 +130,6 @@ session_start();
         // Redirect to Quiz 1 if the condition is met
         window.location.href = 'quiz1.php';
     }
-
     // Add similar functions for quiz2() and quiz3() if needed
     function quiz2() {
         window.location.href = 'quiz2.php'; // Replace with the actual URL
@@ -139,7 +138,7 @@ session_start();
     function quiz3() {
         window.location.href = 'quiz3.php'; // Replace with the actual URL
     }
-    function quiz3() {
+    function quiz4() {
         window.location.href = 'quiz4.php'; // Replace with the actual URL
     }
 </script>
