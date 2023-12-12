@@ -18,7 +18,6 @@ if (!isset($_SESSION['quiz1_completed'])) { //changes
 <body>
     <div class="quiz-container">
         <div class="questionnaire">
-        
             <form id="quiz-form" method="post">
                 <div class="options-container" id="question-container">
                     <h1>General Mathematics 1 Quiz</h1>

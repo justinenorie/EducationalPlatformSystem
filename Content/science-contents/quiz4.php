@@ -11,17 +11,16 @@ if (!isset($_SESSION['sci_quiz4_completed'])) { //changes
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MATH QUIZ</title>
+    <title>BIOLOGY QUIZ</title>
     <link rel="stylesheet" href="../../Content/css/style-courses.css">
     <script src="../../js/courses.js"></script>
 </head>
 <body>
     <div class="quiz-container">
         <div class="questionnaire">
-        
             <form id="quiz-form" method="post">
                 <div class="options-container" id="question-container">
-                    <h1>General Mathematics - 1 Quiz</h1>
+                    <h1>BIOLOGY QUIZ</h1>
                     <p>Let's Test Your Knowledge to Unlock the Next Topic.</p>
                     <div class="question" data-number="1" style="display: block;">
                         <h2>Question 1: Choose one option</h2>
@@ -395,6 +394,7 @@ if (!isset($_SESSION['sci_quiz4_completed'])) { //changes
                     }
                 }
             }
+
             <?php
             $_SESSION['sci_quiz4_completed'] = true;
             ?>

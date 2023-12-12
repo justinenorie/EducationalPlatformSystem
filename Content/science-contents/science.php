@@ -70,7 +70,7 @@ session_start();
                     <div class="included-content">
                         <embed src="../science-contents/4Biology.pdf" type="application/pdf" width="100%" height=1000px/>
                         </div>
-                        <div class="course-quiz"><button onclick="quiz3()">Take the Quiz</button></div>
+                        <div class="course-quiz"><button onclick="quiz4()">Take the Quiz</button></div>
                     </div>
                     <div class="content" id="content5">
                         <h2>CERTIFCATE</h2>
