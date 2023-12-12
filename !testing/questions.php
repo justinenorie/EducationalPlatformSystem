@@ -1,10 +1,17 @@
+<?php
+session_start();
+if (!isset($_SESSION['quiz1_completed'])) {
+    // Set it to true only if the user passes the quiz
+    $_SESSION['quiz1_completed'] = true;
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href=".css">
 </head>
 <body>
 
@@ -156,6 +163,46 @@
         // Then submit the form
         document.getElementById('quiz-form').submit();
     }
+</script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script>
+                    document.addEventListener('DOMContentLoaded', function () {
+                        document.querySelector('form').addEventListener('submit', function (event) {
+  
+                            event.preventDefault();
+
+                            checkAnswers();
+                        });
+                    });
+
+                    function checkAnswers() {
+                        var correctAnswers = ['b', 'c', 'a', 'b', 'c']; //15 questions
+                        var score = 0;
+
+                        for (var i = 1; i <= 5; i++) { //changes 15
+                            var selectedOption = document.querySelector('input[name="question' + i + '"]:checked');
+
+                            if (selectedOption) {
+                                if (selectedOption.value === correctAnswers[i - 1]) {
+                                    score++;
+                                }
+                            }
+                        }
+
+                        if (score >= 3) { //passing score
+                Swal.fire({
+                    title: 'Congratulations!',
+                    text: 'You have passed with a score of ' + score + '/5.', //changes
+                    icon: 'success'
+                });
+            } else {
+                Swal.fire({
+                    title: 'Sorry!',
+                    text: 'You did not pass. Your score is ' + score + '/5. Please try again.', //changes
+                    icon: 'error'
+                });
+            }
+                    }
 </script>
 
 </body>
