@@ -1,8 +1,8 @@
 <?php
 session_start();
-if (!isset($_SESSION['sci_quiz1_completed'])) { //changes
+if (!isset($_SESSION['sci_quiz1_completed']) || !$_SESSION['sci_quiz1_completed']) {
     // Set it to true only if the user passes the quiz
-    $_SESSION['sci_quiz1_completed'] = true; //changes
+    $_SESSION['sci_quiz1_completed'] = false;
 }
 ?>
 
@@ -374,7 +374,7 @@ if (!isset($_SESSION['sci_quiz1_completed'])) { //changes
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-        <script>
+    <script>
         document.addEventListener('DOMContentLoaded', function () {
             document.querySelector('form').addEventListener('submit', function (event) {
                 event.preventDefault();
@@ -383,7 +383,7 @@ if (!isset($_SESSION['sci_quiz1_completed'])) { //changes
         });
 
         function checkAnswers() {
-            var correctAnswers = ['a', 'a', 'c', 'c', 'a', 'a', 'a', 'a', 'c', 'd', 'b', 'b' , 'c' , 'b', 'a']; //change this
+            var correctAnswers = ['a', 'a', 'c', 'c', 'a', 'a', 'a', 'a', 'c', 'd', 'b', 'b', 'c', 'b', 'a'];
             var score = 0;
 
             for (var i = 1; i <= 15; i++) {
@@ -395,20 +395,19 @@ if (!isset($_SESSION['sci_quiz1_completed'])) { //changes
                     }
                 }
             }
-            <?php
-            $_SESSION['sci_quiz1_completed'] = true;
-            ?>
-            
+
             if (score >= 11) {
+                // Only set to true if the user passes the quiz
+                <?php $_SESSION['sci_quiz1_completed'] = true; ?>
                 Swal.fire({
                     title: 'Congratulations!',
                     text: 'You have passed with a score of ' + score + '/15.',
                     icon: 'success'
                 }).then(() => {
-                    // Redirect to math.php after displaying the success message
+                    // Redirect to science.php after displaying the success message
                     window.location.href = 'science.php';
                 });
-                
+
             } else {
                 Swal.fire({
                     title: 'Sorry!',

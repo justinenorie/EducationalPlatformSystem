@@ -84,8 +84,10 @@ session_start();
                         <div class="course-quiz"><button onclick="quiz4()">Take the Quiz</button></div>
                     </div>
                     <div class="content" id="content5">
-                        <h2>CERTIFCATE</h2>
-                        <p>This is the content related to Topic 3.</p>
+                        <h2>Congratulations you've unlock the certificate for Science Course!</h2>
+                        <div class="pos_cert">
+                            <img class="certificate" src="../../image/science_certificate.jpg" alt="">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -102,7 +104,7 @@ session_start();
     document.getElementById("button5").disabled = true;
 
     // Assuming you have a session variable to check quiz1 completion
-    var quiz1Completed = <?php echo isset($_SESSION['sci_quiz1_completed']) ? 'true' : 'false'; ?>;
+    var quiz1Completed = <?php echo isset($_SESSION['sci_quiz1_completed']) && $_SESSION['sci_quiz1_completed'] ? 'true' : 'false'; ?>;
     console.log('Quiz 1 Completed:', quiz1Completed);
 
     if (quiz1Completed) {
@@ -141,16 +143,14 @@ session_start();
         // Redirect to Quiz 1 if the condition is met
         window.location.href = 'quiz1.php';
     }
-    // Add similar functions for quiz2() and quiz3() if needed
     function quiz2() {
-        window.location.href = 'quiz2.php'; // Replace with the actual URL
+        window.location.href = 'quiz2.php'; 
     }
-
     function quiz3() {
-        window.location.href = 'quiz3.php'; // Replace with the actual URL
+        window.location.href = 'quiz3.php'; 
     }
     function quiz4() {
-        window.location.href = 'quiz4.php'; // Replace with the actual URL
+        window.location.href = 'quiz4.php'; 
     }
 </script>
 

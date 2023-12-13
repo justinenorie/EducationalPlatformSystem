@@ -215,6 +215,13 @@ nav .banner-selection a:hover::after{
     transform: translateY(20px);
     transition: opacity 0.5s, transform 0.5s;
 }
+
+.certificate {
+    position: relative;
+    height: 800px;
+    width: 1000px;
+}
+
 .content.active {
     display: block;
     opacity: 1;

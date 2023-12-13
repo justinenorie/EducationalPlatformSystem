@@ -79,9 +79,10 @@ session_start();
                         <div class="course-quiz"><button onclick="quiz3()">Take the Quiz</button></div>
                     </div>
                     <div class="content" id="content4">
-                        <h2>CERTIFCATE</h2>
-                        <p>This is the content related to Topic 3.</p>
-                    
+                        <h2>Congratulations you've unlock the certificate for Mathematics Course!</h2>
+                        <div class="pos_cert">
+                            <img class="certificate" src="../../image/math_certificate.jpg" alt="">
+                        </div>
                     </div>
                 </div>
             </div>
