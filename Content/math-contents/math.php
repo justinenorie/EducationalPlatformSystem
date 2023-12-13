@@ -1,5 +1,15 @@
 <?php
 session_start();
+    if(!isset($_SESSION['userlogin'])){
+        header ("Location: ../../User-interface/Login_form/login.php");
+    }
+    if(isset($_GET['logout'])){
+        sleep(2);
+        session_destroy();
+        unset($_SESSION);
+        header("Location: ../User-interface/Login_form/login.php");
+        exit();
+    }
 ?>
 
 <!DOCTYPE html>
