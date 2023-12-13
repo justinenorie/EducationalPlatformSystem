@@ -54,6 +54,7 @@
                   <input type="submit" class="button" id="register" value="Sign Up" name="submit">
                   <p id="signin-message">Already have an account?<a href="../Login_form/login.php"  id="signin-link">Login </a></p>
                   </form>
+                  
                   <script>
                             document.addEventListener("DOMContentLoaded", function() {
                               // Set the delay in milliseconds (e.g., 3000 milliseconds = 3 seconds)

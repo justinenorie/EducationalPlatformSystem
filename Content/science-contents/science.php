@@ -113,7 +113,7 @@ session_start();
     }
 
     // Assuming you have a session variable to check quiz2 completion
-    var quiz2Completed = <?php echo isset($_SESSION['sci_quiz2_completed']) ? 'true' : 'false'; ?>;
+    var quiz1Completed = <?php echo isset($_SESSION['sci_quiz2_completed']) && $_SESSION['sci_quiz2_completed'] ? 'true' : 'false'; ?>;
     console.log('Quiz 2 Completed:', quiz2Completed);
 
     if (quiz2Completed) {

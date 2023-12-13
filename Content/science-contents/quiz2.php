@@ -1,8 +1,8 @@
 <?php
 session_start();
-if (!isset($_SESSION['sci_quiz2_completed'])) { //changes
+if (!isset($_SESSION['sci_quiz2_completed']) || !$_SESSION['sci_quiz2_completed']) {
     // Set it to true only if the user passes the quiz
-    $_SESSION['sci_quiz2_completed'] = true; //changes
+    $_SESSION['sci_quiz2_completed'] = false; //changes
 }
 ?>
 
@@ -395,11 +395,9 @@ if (!isset($_SESSION['sci_quiz2_completed'])) { //changes
                     }
                 }
             }
-            <?php
-            $_SESSION['sci_quiz2_completed'] = true;
-            ?>
             
             if (score >= 11) {
+                <?php $_SESSION['sci_quiz2_completed'] = true; ?>
                 Swal.fire({
                     title: 'Congratulations!',
                     text: 'You have passed with a score of ' + score + '/15.',
